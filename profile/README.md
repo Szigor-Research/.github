@@ -139,7 +139,7 @@ Core repositories remain **private during active development**. **Follow [@LASZL
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO" width="56" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO" height="56" />
 
 <br/>
 
