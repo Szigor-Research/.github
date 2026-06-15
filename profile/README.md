@@ -14,7 +14,7 @@
 [![Progress](https://img.shields.io/badge/Engineering-2026-0B0D10?style=for-the-badge&logo=hammer&logoColor=FFB24D)](https://wisdomechoes.net/blog/laszlo-status-2026-06)
 [![Chain](https://img.shields.io/badge/Chain-Base_L2-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://base.org)
 [![Site](https://img.shields.io/badge/Site-wisdomechoes.net-15181D?style=for-the-badge&logo=link&logoColor=FFB24D)](https://wisdomechoes.net)
-[![Docs](https://img.shields.io/badge/Docs-public-15181D?style=for-the-badge&logo=gitbook&logoColor=FFB24D)](https://github.com/LASZLO-Quantification/docs)
+[![Docs](https://img.shields.io/badge/Docs-public-15181D?style=for-the-badge&logo=gitbook&logoColor=FFB24D)](https://github.com/LASZLO-Quantification/.github/tree/main/docs)
 
 </div>
 
@@ -124,7 +124,7 @@ We ship like an infrastructure team — measurable pipelines, explicit risk gate
 
 | Resource | Link |
 |----------|------|
-| **Public docs** | [github.com/LASZLO-Quantification/docs](https://github.com/LASZLO-Quantification/docs) |
+| **Public docs** | [github.com/LASZLO-Quantification/.github/tree/main/docs](https://github.com/LASZLO-Quantification/.github/tree/main/docs) |
 | Whitepaper v2 | [wisdomechoes.net/blog/laszlo-whitepaper-v2](https://wisdomechoes.net/blog/laszlo-whitepaper-v2) |
 | Engineering progress | [wisdomechoes.net/blog/laszlo-status-2026-06](https://wisdomechoes.net/blog/laszlo-status-2026-06) |
 | Home | [wisdomechoes.net](https://wisdomechoes.net) |
@@ -133,7 +133,7 @@ We ship like an infrastructure team — measurable pipelines, explicit risk gate
 
 ## Open engineering
 
-This organization publishes **research, design, and brand artifacts** publicly — see the [**docs**](https://github.com/LASZLO-Quantification/docs) repository.
+This organization publishes **research, design, and brand artifacts** publicly — see **[docs](https://github.com/LASZLO-Quantification/.github/tree/main/docs)**.
 
 Core repositories remain **private during active development**. **Follow [@LASZLO-Quantification](https://github.com/LASZLO-Quantification)** for selective releases and partner-facing tooling as we open the stack.
 
