@@ -44,12 +44,12 @@ Python package import path: `agent_wallet`. See [REUSE_FROM_LASZLO.md](https://g
 
 ---
 
-## Founder-side (FranklinNexus)
+## Franklin Nexus · Independent works
 
-Not LASZLO products — personal experiments that share **terminal taste** and shipping discipline:
+Personal open-source under **[FranklinNexus](https://github.com/FranklinNexus)** — same shipping discipline, separate from LASZLO product line:
 
 | Project | Link | Note |
 |---------|------|------|
 | Juno Oversight HUD | [FranklinNexus/Juno-Oversight](https://github.com/FranklinNexus/Juno-Oversight) | Institutional-density tactical dashboard |
 | Nyanpasu Wallpaper | [FranklinNexus/Nyanpasu](https://github.com/FranklinNexus/Nyanpasu) | Dual-screen ACG wallpaper · Android |
-| MBT.AI | [FranklinNexus/MBT.AI](https://github.com/FranklinNexus/MBT.AI) | Founder MBTI · retro terminal quiz |
+| MBT.AI | [FranklinNexus/MBT.AI](https://github.com/FranklinNexus/MBT.AI) | Founder MBTI · retro terminal experience |

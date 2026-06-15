@@ -20,7 +20,7 @@ Public-facing documentation for **LASZLO Quantification**. Core engineering repo
 
 | Document | Description |
 |----------|-------------|
-| [Public projects](projects/README.md) | Omni-Asset Terminal · KeyVeil · founder-side toys |
+| [Public projects](projects/README.md) | Omni-Asset Terminal · KeyVeil · FranklinNexus works |
 | [Architecture overview](architecture/overview.md) | Closed-loop system design — ingest, infer, execute |
 | [Brand guidelines](brand/README.md) | Logo usage, colors, voice |
 | [Whitepaper index](whitepaper/README.md) | Links to LASZLO whitepaper v1/v2 and progress notes |
