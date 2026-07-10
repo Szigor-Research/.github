@@ -1,6 +1,6 @@
 # Public Projects
 
-Open repositories under **[LASZLO Quantification](https://github.com/LASZLO-Quantification)** — satellites around the private core engine.
+Public reference repositories under **[LASZLO Quantification](https://github.com/LASZLO-Quantification)** — satellites around the private core engine.
 
 > Core on-chain stack (`LASZLO`) remains private. These repos are **shippable tools** that share the same engineering DNA: closed loops, risk gates, audit trails.
 
@@ -8,7 +8,7 @@ Open repositories under **[LASZLO Quantification](https://github.com/LASZLO-Quan
 
 ## Omni-Asset Quant Terminal
 
-**Multi-asset systematic investing terminal** — Streamlit.
+**Auditable multi-asset research loop** — Streamlit.
 
 | | |
 |---|---|
@@ -17,30 +17,23 @@ Open repositories under **[LASZLO Quantification](https://github.com/LASZLO-Quan
 | **Coverage** | VA · DCA · rebalance · BTC · TSLA · QQQ · 000300.SS · GLD |
 | **Run** | `python -m streamlit run app.py` |
 
-Turns discretionary DCA/VA into a **reproducible operator workflow** — macro confidence, EV, and monthly backtests with realistic costs.
+Turns discretionary DCA/VA into a **reproducible research workflow** with
+explicit constraints, a local ledger, state replay, and monthly backtests.
+Its [open-source boundary](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
+documents what can be reused without exposing production data or execution internals.
 
 ---
 
-## KeyVeil
-
-**Agent-native policy shell** for coding agents — session scope, policy engine, audit-grade receipts.
-
-| | |
-|---|---|
-| **Repo** | [KeyVeil](https://github.com/LASZLO-Quantification/KeyVeil) |
-| **For** | Claude Code · Codex · OpenClaw · Manus-class agents |
-| **Demo** | `keyveil-dashboard` — Hash Crystal UI + WebSocket audit stream |
-| **DNA** | Same metaphor as LASZLO: **decide → gate → execute → receipt** |
-
-Python package import path: `agent_wallet`. See [REUSE_FROM_LASZLO.md](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/REUSE_FROM_LASZLO.md) for mapping to the private execution stack.
-
----
-
-## Private core
+## Private work
 
 | Repo | Visibility | Role |
 |------|------------|------|
-| [LASZLO](https://github.com/LASZLO-Quantification/LASZLO) | **Private** | Base L2 ingest → ML → execute closed loop |
+| LASZLO | **Private** | Base L2 ingest → ML → execute closed loop |
+| KeyVeil | **Private** | Agent policy and payment-control research |
+
+Private repositories are intentionally not presented as public links. They
+require a separate data, credential, and execution-boundary review before any
+selective release.
 
 ---
 

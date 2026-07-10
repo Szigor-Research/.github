@@ -107,12 +107,13 @@ We ship like an infrastructure team — measurable pipelines, explicit risk gate
 
 | Project | What |
 |---------|------|
-| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Multi-asset VA/DCA Streamlit terminal |
-| [**KeyVeil**](https://github.com/LASZLO-Quantification/KeyVeil) | Agent payment policy shell + Hash Crystal audit UI |
+| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Auditable reference loop for signals, execution constraints, ledger replay, and backtesting |
 
 Full index → [**docs/projects**](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects)
 
-Core on-chain engine **[LASZLO](https://github.com/LASZLO-Quantification/LASZLO)** remains **private**.
+The core on-chain engine and KeyVeil remain **private** during active development.
+The publication boundary is documented in the
+[Omni-Asset open-source guide](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md).
 
 ---
 
