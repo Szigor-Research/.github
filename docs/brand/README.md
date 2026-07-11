@@ -1,44 +1,51 @@
 # Brand Guidelines
 
-Public reference for **LASZLO** visual identity.
+Public identity guidance for LASZLO Quantification and its reference products.
 
-## Wordmark
+## Organization identity
 
-Always **LASZLO** in all caps. Do not translate the brand name in primary lockups.
+- **Name:** LASZLO Quantification
+- **Primary line:** Risk-first decision infrastructure
+- **Supporting line:** Constrained decisions. Verifiable state.
 
-**Tagline (EN):** *From on-chain noise to executable alpha*  
-**Tagline (ZH):** 机构级闭环链上 Alpha 终端
+LASZLO may appear as the short wordmark. Product names such as KeyVeil and
+Omni-Asset Quant Terminal retain their own names and interfaces.
 
-## Colors
+## Voice
 
-| Role | Hex | Usage |
-|------|-----|--------|
-| **Amber** | `#FFB24D` | Mark, pulse line, UI accent |
-| **Carbon** | `#0B0D10` | Dark backgrounds |
-| **Slate** | `#15181D` | Cards / containers |
-| **Steel** | `#2A2F36` | Borders |
-| **Stone** | `#889099` | Muted text |
+- State implemented behavior before ambition.
+- Separate authorization from execution and simulation from production.
+- Prefer measurable contracts, state transitions, and failure modes.
+- Avoid return promises, urgency, exaggerated security claims, or unsupported maturity labels.
 
-## Mark
+## Color
 
-**Pulse Triangle** — rounded triangle cut by an amber pulse line.  
-Do not reuse Jinstone hexagon motifs. No meme-crypto clichés (rockets, neon exchanges, dog coins).
+| Role | Hex | Use |
+|---|---|---|
+| Amber | `#FFB24D` | LASZLO brand accent and selected states. |
+| Carbon | `#0B0D10` | Primary dark background. |
+| Graphite | `#15181D` | Tool surfaces and secondary bands. |
+| Steel | `#2A2F36` | Borders and separators. |
+| Stone | `#889099` | Secondary text. |
+| White | `#F4F6F8` | Primary text and high-confidence contrast. |
 
-## Tone
-
-- Institutional terminal — Bloomberg / Jane Street restraint  
-- Infrastructure, not hype  
-- Risk before return  
+Product interfaces may use semantic green, red, amber, or cyan for approved,
+blocked, review, and processing states. These are status colors, not brand
+decoration.
 
 ## Assets
 
 | File | Use |
-|------|-----|
-| `laszlo-banner.png` | README headers, presentations |
-| `laszlo-mark-256.png` | Avatar, favicon source |
-| `laszlo-terminal.png` | Product concept (illustrative) |
+|---|---|
+| `laszlo-banner.png` | High-resolution brand lockup source. |
+| `laszlo-mark.png` | Avatar, favicon, and compact lockups. |
+| [`profile/assets/laszlo-banner.jpg`](../../profile/assets/laszlo-banner.jpg) | Optimized 4:1 GitHub organization header. |
 
-Download from [`assets/`](assets/).
+Regenerate the GitHub header from the repository source with
+`python scripts/compress-profile-assets.py`.
+
+Do not publish simulated production terminals as operational evidence. Product
+screenshots must state their data source and runtime mode.
 
 ## Contact
 

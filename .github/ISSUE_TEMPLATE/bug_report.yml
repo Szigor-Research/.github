@@ -1,0 +1,33 @@
+name: Bug report
+description: Report reproducible behavior in a public reference repository.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, private data, wallet records, or vulnerability details.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository and commit
+      placeholder: LASZLO-Quantification/KeyVeil @ commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+    validations:
+      required: true
