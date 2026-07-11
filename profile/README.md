@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-banner.jpg" alt="LASZLO Quantification" width="760" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-banner.jpg?v=5571208" alt="LASZLO Quantification" width="760" />
 
 # LASZLO Quantification
 
@@ -117,7 +117,7 @@ limitations before integration.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO mark" height="52" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png?v=5571208" alt="LASZLO mark" height="52" />
 
 **LASZLO Quantification** | *Constrained decisions. Verifiable state.*
 
