@@ -1,153 +1,124 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-banner.jpg" alt="LASZLO" width="680" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-banner.jpg" alt="LASZLO Quantification" width="760" />
 
-### Institutional on-chain alpha infrastructure
+# LASZLO Quantification
 
-**From on-chain noise to executable alpha** · Base L2
+**Risk-first decision infrastructure for constrained, auditable automation.**
 
-<sub>机构级闭环链上 Alpha 终端 — 采集、推理、执行、风控一体化</sub>
+[![Public Projects](https://img.shields.io/badge/Public_projects-2-FFB24D?style=for-the-badge&logo=github&logoColor=0B0D10)](https://github.com/orgs/LASZLO-Quantification/repositories)
+[![KeyVeil](https://img.shields.io/badge/KeyVeil-Agent_policy-2ea44f?style=for-the-badge)](https://github.com/LASZLO-Quantification/KeyVeil)
+[![Omni Terminal](https://img.shields.io/badge/Omni-Quant_research-3776AB?style=for-the-badge)](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal)
+[![Documentation](https://img.shields.io/badge/Documentation-Public-15181D?style=for-the-badge)](https://github.com/LASZLO-Quantification/.github/tree/main/docs)
 
-<br/>
-
-[![Whitepaper](https://img.shields.io/badge/Whitepaper-v2.0-FFB24D?style=for-the-badge&logo=readthedocs&logoColor=0B0D10)](https://wisdomechoes.net/blog/laszlo-whitepaper-v2)
-[![Progress](https://img.shields.io/badge/Engineering-2026-0B0D10?style=for-the-badge&logo=hammer&logoColor=FFB24D)](https://wisdomechoes.net/blog/laszlo-status-2026-06)
-[![Chain](https://img.shields.io/badge/Chain-Base_L2-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://base.org)
-[![Site](https://img.shields.io/badge/Site-wisdomechoes.net-15181D?style=for-the-badge&logo=link&logoColor=FFB24D)](https://wisdomechoes.net)
-[![Docs](https://img.shields.io/badge/Docs-public-15181D?style=for-the-badge&logo=gitbook&logoColor=FFB24D)](https://github.com/LASZLO-Quantification/.github/tree/main/docs)
+<sub>Hong Kong | Open reference implementations backed by private systems research</sub>
 
 </div>
 
 ---
 
-## The problem
+## What we build
 
-On-chain markets never sleep. Event volume is enormous; **signal density is not**.
+LASZLO Quantification develops infrastructure for automated decisions that
+must remain constrained, explainable, and recoverable.
 
-Most products stop at visibility — alerts, dashboards, copy-trading shells. The hard problem remains:
+| Capability | Engineering focus |
+|---|---|
+| **Quant research systems** | Deterministic signals, execution constraints, ledger replay, portfolio state, and reproducible backtests. |
+| **Agent payment policy** | Delegated sessions, verified approvals, atomic budgets, and versioned decision receipts. |
+| **Private execution research** | Low-latency ingestion, model-driven inference, routing, position management, and operator risk controls. |
 
-> How do you turn filtered signal into **repeatable, risk-bounded execution** — with an audit trail?
-
-Retail tooling is fragmented. Institutional workflows are slow to adapt to L2. **LASZLO closes that gap.**
-
----
-
-## What LASZLO is
-
-A **closed-loop alpha terminal** for EVM chains — **Base L2** today, architected to extend.
-
-Not a block explorer. Not a signal channel. Not a copy-trading app. **Infrastructure an operator runs.**
-
-| Layer | Role |
-|-------|------|
-| **Ingest** | Low-latency on-chain event capture |
-| **Infer** | Feature engineering + ML signal generation |
-| **Execute** | Unified routing, position management, risk gates |
-| **Learn** | Data flywheel — collect → label → retrain → deploy |
+The common operating model separates non-approved and approved outcomes:
 
 ```text
-Ingest (Rust) → Redis Streams → Infer (Python) → Execute (Rust) → Base L2
-                      ↑________________feedback________________↓
+input -> validate -> constrain -> decide
+                         |-> blocked or review -> record
+                         |-> approved -> reserve -> record -> trusted adapter
 ```
 
-**One pipeline. One operator surface. Risk before return.**
+## Public reference products
 
----
+### KeyVeil
 
-## Built different
+**Policy decisions for AI-agent payment intents.**
 
-| Typical tooling | LASZLO |
-|-----------------|--------|
-| Charts and alerts | **Signal → execution loop** |
-| Fragmented scripts | **Unified ingest / infer / execute stack** |
-| Risk as an afterthought | **Risk gates before every order** |
-| Demo-grade infra | **Observable, drill-tested, operator-first** |
+[Repository](https://github.com/LASZLO-Quantification/KeyVeil) |
+[Architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md) |
+[Security model](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/SECURITY_MODEL.md)
 
----
+- Fail-closed session and organization policy boundaries.
+- Intent- and authorization-context-bound approval grants.
+- Atomic session-daily and budget-scope-weekly reservations.
+- Versioned receipts with canonical intent and receipt hashes.
+- Synthetic workbench with no signer and no funds.
 
-## Principles
+### Omni-Asset Quant Terminal
 
-- **Signal over volume** — only decision-grade data enters the loop
-- **Heterogeneous by design** — Rust for latency; Python for research velocity
-- **Risk-first execution** — automated stops, conservative entry, operator kill-switches
-- **Infrastructure, not hype** — built to harden and measure
+**Auditable reference loop for systematic investment research.**
 
-Named after **Laszlo Hanyecz** — the first real on-chain exchange. The reference is **execution discipline**, not nostalgia.
+[Repository](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) |
+[Architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md) |
+[Open-source boundary](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
 
----
+- Value averaging, DCA, and rebalance signals.
+- Cash, position, fee, and slippage constraints.
+- Local append-only ledger and deterministic state rebuild.
+- Cross-asset diagnostics and monthly backtests.
+- Research mode only, with no broker connection.
 
-## Stack
+## Private core research
 
-| Component | Technology |
-|-----------|------------|
-| Ingestion & execution | Rust |
-| Strategy & ML | Python |
-| Message bus | Redis Streams |
-| Target chain | Base L2 (EVM-extensible) |
-| DEX focus | Uniswap V3 spot |
-| Orchestration | Docker Compose |
+The private LASZLO stack explores a closed ingest, inference, execution, and
+feedback loop for EVM markets. Production data, models, routing details,
+credentials, signing systems, incident records, and operator telemetry are not
+published.
 
----
+```mermaid
+flowchart LR
+    I["Ingest"] --> S["Structured event stream"]
+    S --> D["Decision models"]
+    D --> R["Risk and policy gates"]
+    R --> E["Trusted execution boundary"]
+    E --> A["Ledger and audit state"]
+    A --> D
+```
 
-## Operator surface
+Public repositories contain generic contracts and synthetic examples, not
+copies of private execution code.
 
-Terminal concept (illustrative) → [view on GitHub](https://github.com/LASZLO-Quantification/.github/blob/main/profile/assets/laszlo-terminal.jpg) · production systems under active development.
+## Engineering standard
 
----
+- **Fail closed:** unavailable policy, approval, or budget state cannot silently authorize action.
+- **Explicit contracts:** fields, statuses, and state transitions are versioned and tested.
+- **Audit before aesthetics:** interfaces expose source, freshness, constraints, and runtime proof.
+- **Synthetic by default:** public fixtures contain no customer, wallet, ledger, or incident data.
+- **Honest product boundaries:** simulations are labeled; research tools do not claim execution.
 
-## Status
+## Work with us
 
-**Active engineering on Base L2.** The full ingest → signal → execute loop is implemented. Current focus: data quality, model calibration, and production hardening.
+We are open to technical collaboration around:
 
-We ship like an infrastructure team — measurable pipelines, explicit risk gates, reproducible research cycles.
+- agent authorization and machine-payment controls;
+- auditable quant research workflows;
+- execution-risk architecture and operator tooling;
+- selective integrations that preserve explicit trust boundaries.
 
----
+Start with the [public project index](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects)
+or contact us through [wisdomechoes.net](https://wisdomechoes.net).
 
-## Public satellites
+## Important notice
 
-| Project | What |
-|---------|------|
-| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Auditable reference loop for signals, execution constraints, ledger replay, and backtesting |
-
-Full index → [**docs/projects**](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects)
-
-The core on-chain engine and KeyVeil remain **private** during active development.
-The publication boundary is documented in the
-[Omni-Asset open-source guide](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md).
-
----
-
-## Read more
-
-| Resource | Link |
-|----------|------|
-| **Public docs** | [github.com/LASZLO-Quantification/.github/tree/main/docs](https://github.com/LASZLO-Quantification/.github/tree/main/docs) |
-| Whitepaper v2 | [wisdomechoes.net/blog/laszlo-whitepaper-v2](https://wisdomechoes.net/blog/laszlo-whitepaper-v2) |
-| Engineering progress | [wisdomechoes.net/blog/laszlo-status-2026-06](https://wisdomechoes.net/blog/laszlo-status-2026-06) |
-| Home | [wisdomechoes.net](https://wisdomechoes.net) |
-
----
-
-## Open engineering
-
-This organization publishes **research, design, and brand artifacts** publicly — see **[docs](https://github.com/LASZLO-Quantification/.github/tree/main/docs)**.
-
-Core repositories remain **private during active development**. **Follow [@LASZLO-Quantification](https://github.com/LASZLO-Quantification)** for selective releases and partner-facing tooling as we open the stack.
-
-**Early access or research collaboration** → [wisdomechoes.net](https://wisdomechoes.net)
+Public repositories are reference implementations for engineering research.
+They do not provide custody, brokerage, investment advice, guaranteed returns,
+or production payment execution. Review each repository's security model and
+limitations before integration.
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO" height="56" />
+<img src="https://raw.githubusercontent.com/LASZLO-Quantification/.github/main/profile/assets/laszlo-mark.png" alt="LASZLO mark" height="52" />
 
-<br/>
-
-**LASZLO** · *Signal to execution*
-
-<br/>
-
-<sub>Hong Kong · <a href="https://wisdomechoes.net">wisdomechoes.net</a></sub>
+**LASZLO Quantification** | *Constrained decisions. Verifiable state.*
 
 </div>

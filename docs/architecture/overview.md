@@ -1,69 +1,50 @@
 # Architecture Overview
 
-> Public summary. Canonical technical whitepaper: [LASZLO Whitepaper v2](https://wisdomechoes.net/blog/laszlo-whitepaper-v2)
+LASZLO Quantification works on automated decision systems where intent,
+constraints, approval, execution, and audit state remain separate contracts.
 
-## System definition
-
-**LASZLO** is a closed-loop on-chain alpha terminal for EVM chains — **Base L2** first.
-
-| Layer | Technology | Responsibility |
-|-------|------------|----------------|
-| **Ingest** | Rust | WebSocket log subscription, Swap decode, stream publish |
-| **Infer** | Python | Feature engineering, ML signal generation |
-| **Execute** | Rust | Order routing, position management, risk gates |
-| **Learn** | Pipeline | Collect → label → retrain → deploy |
-
-## Data flow
+## Shared decision architecture
 
 ```mermaid
 flowchart LR
-  subgraph chain["Base L2"]
-    U[Uniswap V3 swaps]
-  end
-  subgraph ingest["Ingest · Rust"]
-    I[WebSocket capture]
-  end
-  subgraph bus["Redis Streams"]
-    R[(market_ticks · signals)]
-  end
-  subgraph infer["Infer · Python"]
-    S[Strategy + ML]
-  end
-  subgraph exec["Execute · Rust"]
-    E[Orders + risk]
-  end
-  U --> I --> R --> S --> E
-  E -.-> U
+    A["Intent or signal"] --> B["Input validation"]
+    B --> C["Session and policy constraints"]
+    C --> D["Decision"]
+    D -->|"blocked or review"| E["Versioned decision record"]
+    D -->|"approved"| R["Budget or portfolio reservation"]
+    R --> E
+    E -. trusted adapter .-> F["External execution"]
+    F --> G["Ledger and state rebuild"]
 ```
+
+## Public implementations
+
+| Contract | KeyVeil | Omni Terminal |
+|---|---|---|
+| Input | Agent payment intent | Strategy signal and market data |
+| Constraints | Session, allowlists, approvals, budgets | Cash, position, fees, slippage |
+| Record | Hashed decision receipt | Local append-only ledger row |
+| State | Budget reservation lifecycle | Portfolio state rebuilt from ledger |
+| Execution | Excluded | Local research confirmation only |
+
+## Private core
+
+Private LASZLO research extends the same discipline to low-latency on-chain
+ingestion, model inference, routing, position management, and operator risk
+controls. Public summaries intentionally omit data sources, provider topology,
+strategy internals, thresholds, signing, and incident telemetry.
 
 ## Design principles
 
-1. **Signal over volume** — decision-grade data only  
-2. **Heterogeneous stack** — Rust for latency; Python for research velocity  
-3. **Risk-first execution** — automated stops, conservative entry, operator kill-switches  
-4. **Operator realism** — observable pipelines, explicit contracts, drill-tested failure modes  
-
-## What LASZLO is not
-
-- A block explorer or charting toy  
-- A copy-trading or signal-channel product  
-- A CEX derivatives stack  
-
-## Stack
-
-| Component | Choice |
-|-----------|--------|
-| Message bus | Redis Streams |
-| Target chain | Base L2 (EVM-extensible) |
-| DEX focus | Uniswap V3 spot |
-| Orchestration | Docker Compose |
-
-## Status
-
-Active engineering on Base L2. Full ingest → signal → execute loop implemented. Current focus: data quality, model calibration, production hardening.
+1. Validate monetary and identifier fields before policy evaluation.
+2. Fail closed when a required authority or state store is unavailable.
+3. Scope stable ids and idempotency to the owning authorization context.
+4. Separate authorization from execution success.
+5. Preserve enough context to rebuild and explain state.
+6. Keep public examples synthetic and private implementations out of public history.
 
 ## Further reading
 
-- [Whitepaper v2](https://wisdomechoes.net/blog/laszlo-whitepaper-v2) — full technical narrative  
-- [Progress notes (2026)](https://wisdomechoes.net/blog/laszlo-status-2026-06)  
-- [Organization profile](https://github.com/LASZLO-Quantification)
+- [Public projects](../projects/README.md)
+- [KeyVeil architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md)
+- [Omni architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)

@@ -1,48 +1,59 @@
 # Public Projects
 
-Public reference repositories under **[LASZLO Quantification](https://github.com/LASZLO-Quantification)** — satellites around the private core engine.
+LASZLO Quantification publishes reusable reference implementations with
+explicit public/private boundaries. Public repositories contain synthetic
+fixtures and generic contracts, not production data or private execution code.
 
-> Core on-chain stack (`LASZLO`) remains private. These repos are **shippable tools** that share the same engineering DNA: closed loops, risk gates, audit trails.
+## Portfolio
 
----
+| Project | Category | Core contracts | Status |
+|---|---|---|---|
+| [KeyVeil](https://github.com/LASZLO-Quantification/KeyVeil) | Agent payment policy | Session scope, approval verification, atomic budget reservation, hashed decision receipt | Alpha reference |
+| [Omni-Asset Quant Terminal](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Quant research workflow | Signal, constrained execution estimate, local ledger, state replay, backtest | Runnable reference |
+
+## KeyVeil
+
+KeyVeil demonstrates how an AI-agent payment intent can be evaluated without
+giving the agent authority to expand its own session or claim human approval.
+
+```text
+intent -> session gate -> organization policy -> decision
+                                    |-> blocked or review -> receipt
+                                    |-> approved -> atomic reservation -> receipt
+```
+
+The repository has no signer, no wallet custody, and no payment executor.
+
+- [Architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md)
+- [Security model](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/SECURITY_MODEL.md)
+- [Open-source boundary](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
 
 ## Omni-Asset Quant Terminal
 
-**Auditable multi-asset research loop** — Streamlit.
+Omni turns deterministic investment strategies into a reproducible local
+research workflow with cash and position constraints, transaction-cost
+estimates, ledger replay, and backtests.
 
-| | |
-|---|---|
-| **Repo** | [Omni-Asset-Quant-Terminal](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) |
-| **Loop** | Signal → constrained execution → ledger → portfolio state → backtest / export |
-| **Coverage** | VA · DCA · rebalance · BTC · TSLA · QQQ · 000300.SS · GLD |
-| **Run** | `python -m streamlit run app.py` |
+```text
+market data -> signal -> constrained estimate -> local confirmation
+            -> ledger -> state rebuild -> backtest and export
+```
 
-Turns discretionary DCA/VA into a **reproducible research workflow** with
-explicit constraints, a local ledger, state replay, and monthly backtests.
-Its [open-source boundary](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
-documents what can be reused without exposing production data or execution internals.
+The repository does not connect to a broker or place market orders.
 
----
+- [Architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)
+- [Open-source boundary](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
 
 ## Private work
 
-| Repo | Visibility | Role |
-|------|------------|------|
-| LASZLO | **Private** | Base L2 ingest → ML → execute closed loop |
-| KeyVeil | **Private** | Agent policy and payment-control research |
+The LASZLO core stack remains private while production boundaries are under
+active development. The organization does not publish:
 
-Private repositories are intentionally not presented as public links. They
-require a separate data, credential, and execution-boundary review before any
-selective release.
+- credentials, signing or routing internals;
+- real wallet, ledger, customer, or incident data;
+- model weights, alpha features, labels, or thresholds;
+- provider inventories, failover configuration, or operator telemetry;
+- private-source copies inside public reference repositories.
 
----
-
-## Franklin Nexus · Independent works
-
-Personal open-source under **[FranklinNexus](https://github.com/FranklinNexus)** — same shipping discipline, separate from LASZLO product line:
-
-| Project | Link | Note |
-|---------|------|------|
-| Juno Oversight HUD | [FranklinNexus/Juno-Oversight](https://github.com/FranklinNexus/Juno-Oversight) | Institutional-density tactical dashboard |
-| Nyanpasu Wallpaper | [FranklinNexus/Nyanpasu](https://github.com/FranklinNexus/Nyanpasu) | Dual-screen ACG wallpaper · Android |
-| MBT.AI | [FranklinNexus/MBT.AI](https://github.com/FranklinNexus/MBT.AI) | Founder MBTI · retro terminal experience |
+Public reference repositories use sanitized source trees and histories that do
+not expose private implementation lineage.

@@ -1,36 +1,45 @@
 from pathlib import Path
+
 from PIL import Image
 
-vault = Path(r"e:\Obsidian Vault\attachments\LASZLO")
-out = Path(__file__).resolve().parents[1] / "profile" / "assets"
-out.mkdir(parents=True, exist_ok=True)
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "docs" / "assets" / "laszlo-banner.png"
+OUTPUT = ROOT / "profile" / "assets" / "laszlo-banner.jpg"
+CANVAS_SIZE = (1200, 300)
 
 
-def resize_keep_aspect(img: Image.Image, *, height: int | None = None, width: int | None = None) -> Image.Image:
-    w, h = img.size
-    if height is not None:
-        return img.resize((int(w * height / h), height), Image.LANCZOS)
-    if width is not None:
-        return img.resize((width, int(h * width / w)), Image.LANCZOS)
-    raise ValueError("pass height or width")
+def visible_bounds(image: Image.Image) -> tuple[int, int, int, int]:
+    grayscale = image.convert("L")
+    mask = grayscale.point(lambda value: 255 if value > 36 else 0)
+    bounds = mask.getbbox()
+    if bounds is None:
+        raise ValueError("brand source does not contain a visible lockup")
+
+    left, top, right, bottom = bounds
+    padding_x = max(24, int((right - left) * 0.08))
+    padding_y = max(18, int((bottom - top) * 0.18))
+    return (
+        max(0, left - padding_x),
+        max(0, top - padding_y),
+        min(image.width, right + padding_x),
+        min(image.height, bottom + padding_y),
+    )
 
 
-banner_src = vault / "LASZLO_Logo_横版_深色底.png"
-mark_src = vault / "LASZLO_Logo_标章_256.png"
-term_src = vault / "LASZLO_UI_Terminal_终端.png"
+def main() -> None:
+    source = Image.open(SOURCE).convert("RGB")
+    _, visible_top, _, visible_bottom = visible_bounds(source)
+    crop_height = round(source.width * CANVAS_SIZE[1] / CANVAS_SIZE[0])
+    center_y = (visible_top + visible_bottom) // 2
+    crop_top = max(0, min(source.height - crop_height, center_y - crop_height // 2))
+    crop = source.crop((0, crop_top, source.width, crop_top + crop_height))
+    banner = crop.resize(CANVAS_SIZE, Image.Resampling.LANCZOS)
 
-img = resize_keep_aspect(Image.open(banner_src).convert("RGB"), width=680)
-banner = out / "laszlo-banner.jpg"
-img.save(banner, format="JPEG", quality=80, optimize=True, progressive=True)
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    banner.save(OUTPUT, format="JPEG", quality=88, optimize=True, progressive=True)
+    print(f"{OUTPUT.relative_to(ROOT)} {banner.size} {OUTPUT.stat().st_size} bytes")
 
-mark = resize_keep_aspect(Image.open(mark_src).convert("RGBA"), height=112)
-mark_path = out / "laszlo-mark.png"
-mark.save(mark_path, format="PNG", optimize=True)
 
-term = resize_keep_aspect(Image.open(term_src).convert("RGB"), width=720)
-term_path = out / "laszlo-terminal.jpg"
-term.save(term_path, format="JPEG", quality=78, optimize=True, progressive=True)
-
-for p in (banner, mark_path, term_path):
-    im = Image.open(p)
-    print(p.name, im.size, p.stat().st_size)
+if __name__ == "__main__":
+    main()
