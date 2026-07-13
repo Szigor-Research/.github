@@ -1,6 +1,6 @@
 # Portfolio
 
-Jinstone Labs separates private systems research from reusable public
+Szigor Research separates private systems research from reusable public
 references. Maturity labels describe engineering evidence, not investment or
 production readiness.
 
@@ -16,9 +16,10 @@ production readiness.
 ## Private research labs
 
 LASZLO and JANOS are parallel labs under the same risk-first engineering
-standard. They do not share strategy code by default, and neither lab names the
-organization. Public descriptions expose system boundaries, not proprietary
-data, models, performance, or operational topology.
+standard. Szigor Research is their shared public research identity, not a legal
+holding company. The labs do not share strategy code by default. Public
+descriptions expose system boundaries, not proprietary data, models,
+performance, or operational topology.
 
 ## KeyVeil
 

@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions to public Jinstone Labs repositories should preserve the
+Contributions to public Szigor Research repositories should preserve the
 published trust boundaries.
 
 - Use synthetic data and identifiers only.

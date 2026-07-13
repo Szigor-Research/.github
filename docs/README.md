@@ -1,4 +1,4 @@
-# Jinstone Labs Documentation
+# Szigor Research Documentation
 
 Public documentation for evidence-bound decision systems, reusable reference
 products, and the boundaries around private research labs.

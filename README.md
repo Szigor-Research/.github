@@ -1,6 +1,6 @@
-# Jinstone Labs GitHub Profile
+# Szigor Research GitHub Profile
 
-Organization profile and public governance repository for Jinstone Labs.
+Organization profile and public governance repository for Szigor Research.
 
 The GitHub login remains `LASZLO-Quantification` during the staged brand
 migration. Repository URLs using that login remain canonical until the handle
@@ -16,4 +16,4 @@ migration checklist is complete.
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Public participation standard |
 
 Legacy LASZLO visual assets in this repository belong to the LASZLO product
-history. They are not the Jinstone Labs organization mark.
+history. They are not the Szigor Research organization mark.

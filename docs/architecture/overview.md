@@ -1,6 +1,6 @@
 # Architecture Overview
 
-Jinstone Labs builds decision systems where evidence, intent, constraints,
+Szigor Research documents decision systems where evidence, intent, constraints,
 execution, and audit state remain separate contracts.
 
 ## Shared decision architecture

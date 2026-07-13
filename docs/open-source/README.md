@@ -1,6 +1,6 @@
 # Open-Source Policy
 
-Jinstone Labs publishes reusable contracts and synthetic reference
+Szigor Research publishes reusable contracts and synthetic reference
 implementations while keeping production systems and data private.
 
 ## Publication checklist

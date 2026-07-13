@@ -20,5 +20,5 @@ community and repositories.
 
 ## Scope
 
-This policy applies to Jinstone Labs public repositories, discussions,
+This policy applies to Szigor Research public repositories, discussions,
 issues, pull requests, and official project communication channels.

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jinstone Labs
+# Szigor Research
 
 **Evidence-bound decision systems for markets and autonomous software.**
 
@@ -18,8 +18,9 @@
 
 ## Research constellation
 
-LASZLO and JANOS are parallel private research systems. Neither project is the
-parent brand; both inherit the same evidence, risk, and audit standard.
+LASZLO and JANOS are parallel private research systems. Szigor Research is the
+shared public research identity for their engineering standards; it is not a
+holding company and neither lab is a subsidiary of the other.
 
 | Lab | Market | Research boundary | Current mode |
 |---|---|---|---|
@@ -79,6 +80,6 @@ execution. Review each repository's security model and limitations before use.
 
 <div align="center">
 
-**Jinstone Labs** | *Constrained decisions. Verifiable state.*
+**Szigor Research** | *Evidence before action.*
 
 </div>
