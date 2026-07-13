@@ -1,13 +1,19 @@
-# LASZLO-Quantification/.github
+# Jinstone Labs GitHub Profile
 
-Organization profile and public governance repository for
-[LASZLO Quantification](https://github.com/LASZLO-Quantification).
+Organization profile and public governance repository for Jinstone Labs.
+
+The GitHub login remains `LASZLO-Quantification` during the staged brand
+migration. Repository URLs using that login remain canonical until the handle
+migration checklist is complete.
 
 | Path | Purpose |
-|------|---------|
-| [`profile/README.md`](profile/README.md) | Organization homepage |
-| [`docs/`](docs/) | Products, architecture, publication policy, brand, and research index |
+|---|---|
+| [`profile/README.md`](profile/README.md) | Organization homepage and portfolio map |
+| [`docs/`](docs/) | Architecture, projects, publication policy, brand, and research index |
+| [`docs/brand/MIGRATION.md`](docs/brand/MIGRATION.md) | Display-name and future handle migration controls |
 | [`SECURITY.md`](SECURITY.md) | Organization security-reporting entry point |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Shared public contribution boundaries |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Public participation standard |
-| [`social-preview.png`](social-preview.png) | Upload to **Settings → Social preview** (1280×640) |
+
+Legacy LASZLO visual assets in this repository belong to the LASZLO product
+history. They are not the Jinstone Labs organization mark.

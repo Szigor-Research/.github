@@ -1,15 +1,28 @@
 # Brand Guidelines
 
-Public identity guidance for LASZLO Quantification and its reference products.
+Public identity guidance for Jinstone Labs and its research products.
 
 ## Organization identity
 
-- **Name:** LASZLO Quantification
-- **Primary line:** Risk-first decision infrastructure
+- **Name:** Jinstone Labs
+- **Short name:** Jinstone
+- **Primary line:** Evidence-bound decision systems
 - **Supporting line:** Constrained decisions. Verifiable state.
+- **Current GitHub login:** `LASZLO-Quantification` during migration
 
-LASZLO may appear as the short wordmark. Product names such as KeyVeil and
-Omni-Asset Quant Terminal retain their own names and interfaces.
+Jinstone Labs is the parent identity. LASZLO and JANOS are parallel private
+research labs. KeyVeil and Omni-Asset Quant Terminal retain their own product
+names and interfaces.
+
+## Naming hierarchy
+
+| Level | Names | Rule |
+|---|---|---|
+| Organization | Jinstone Labs | Use for company, portfolio, governance, and shared standards. |
+| Private labs | LASZLO, JANOS | Use only for the corresponding market research system. |
+| Public products | KeyVeil, Omni-Asset Quant Terminal | Use for reusable reference implementations. |
+
+Do not use LASZLO as shorthand for the organization.
 
 ## Voice
 
@@ -17,36 +30,26 @@ Omni-Asset Quant Terminal retain their own names and interfaces.
 - Separate authorization from execution and simulation from production.
 - Prefer measurable contracts, state transitions, and failure modes.
 - Avoid return promises, urgency, exaggerated security claims, or unsupported maturity labels.
+- Name external acceptance work instead of implying it has passed.
 
-## Color
+## Visual status
 
-| Role | Hex | Use |
-|---|---|---|
-| Amber | `#FFB24D` | LASZLO brand accent and selected states. |
-| Carbon | `#0B0D10` | Primary dark background. |
-| Graphite | `#15181D` | Tool surfaces and secondary bands. |
-| Steel | `#2A2F36` | Borders and separators. |
-| Stone | `#889099` | Secondary text. |
-| White | `#F4F6F8` | Primary text and high-confidence contrast. |
+No Jinstone Labs organization mark or banner is approved in this repository
+yet. Until a dedicated asset is reviewed:
 
-Product interfaces may use semantic green, red, amber, or cyan for approved,
-blocked, review, and processing states. These are status colors, not brand
-decoration.
+- use the text wordmark `Jinstone Labs` on the organization profile;
+- do not recolor or repurpose the LASZLO pulse mark as the organization logo;
+- treat files named `laszlo-*` as LASZLO product assets or historical material;
+- do not upload a generated visual without checking legibility at GitHub avatar and banner sizes.
 
-## Assets
+## Product color separation
 
-| File | Use |
-|---|---|
-| `laszlo-banner.png` | High-resolution brand lockup source. |
-| `laszlo-mark.png` | Avatar, favicon, and compact lockups. |
-| [`profile/assets/laszlo-banner.jpg`](../../profile/assets/laszlo-banner.jpg) | Optimized 4:1 GitHub organization header. |
-
-Regenerate the GitHub header from the repository source with
-`python scripts/compress-profile-assets.py`.
-
-Do not publish simulated production terminals as operational evidence. Product
-screenshots must state their data source and runtime mode.
+The existing LASZLO amber (`#FFB24D`) remains a LASZLO product accent. The
+Jinstone Labs mother palette and JANOS product accent remain intentionally
+unassigned until the organization asset set is approved. Shared documentation
+may use carbon `#0B0D10`, graphite `#15181D`, and white `#F4F6F8` as neutral
+interface colors.
 
 ## Contact
 
-Brand and partnership inquiries: [wisdomechoes.net](https://wisdomechoes.net)
+Brand and partnership inquiries: [wisdomechoes.net/connect](https://wisdomechoes.net/connect)

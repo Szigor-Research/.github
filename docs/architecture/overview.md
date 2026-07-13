@@ -1,50 +1,52 @@
 # Architecture Overview
 
-LASZLO Quantification works on automated decision systems where intent,
-constraints, approval, execution, and audit state remain separate contracts.
+Jinstone Labs builds decision systems where evidence, intent, constraints,
+execution, and audit state remain separate contracts.
 
 ## Shared decision architecture
 
 ```mermaid
 flowchart LR
-    A["Intent or signal"] --> B["Input validation"]
-    B --> C["Session and policy constraints"]
-    C --> D["Decision"]
-    D -->|"blocked or review"| E["Versioned decision record"]
-    D -->|"approved"| R["Budget or portfolio reservation"]
-    R --> E
-    E -. trusted adapter .-> F["External execution"]
-    F --> G["Ledger and state rebuild"]
+    A["Evidence or intent"] --> B["Temporal and identity validation"]
+    B --> C["Model or policy decision"]
+    C --> D["Portfolio, budget, and authority constraints"]
+    D -->|"blocked or review"| E["Versioned evidence record"]
+    D -->|"approved"| F["Trusted adapter boundary"]
+    F --> G["External state observation"]
+    G --> H["Reconciliation and recovery"]
+    H --> E
 ```
 
-## Public implementations
+The model may differ by product, but the authority boundary does not disappear.
 
-| Contract | KeyVeil | Omni Terminal |
-|---|---|---|
-| Input | Agent payment intent | Strategy signal and market data |
-| Constraints | Session, allowlists, approvals, budgets | Cash, position, fees, slippage |
-| Record | Hashed decision receipt | Local append-only ledger row |
-| State | Budget reservation lifecycle | Portfolio state rebuilt from ledger |
-| Execution | Excluded | Local research confirmation only |
+## Portfolio map
 
-## Private core
+| System | Input contract | Constraint boundary | Evidence output | External boundary |
+|---|---|---|---|---|
+| LASZLO | Point-in-time on-chain market events | Portfolio, execution, and operator risk | Replayable signal and execution state | EVM adapter |
+| JANOS | Point-in-time US equity, company, and broker data | Portfolio, release, account, and halt controls | Dataset, experiment, release, recovery, and audit evidence | IBKR Paper adapter |
+| KeyVeil | Agent payment intent and authorization context | Session, approval, and atomic budget policy | Hashed decision receipt | Executor intentionally excluded |
+| Omni Terminal | Market data and deterministic strategy signal | Cash, position, fee, and slippage estimates | Local append-only research ledger | Broker intentionally excluded |
 
-Private LASZLO research extends the same discipline to low-latency on-chain
-ingestion, model inference, routing, position management, and operator risk
-controls. Public summaries intentionally omit data sources, provider topology,
-strategy internals, thresholds, signing, and incident telemetry.
+## Shared principles
 
-## Design principles
-
-1. Validate monetary and identifier fields before policy evaluation.
-2. Fail closed when a required authority or state store is unavailable.
-3. Scope stable ids and idempotency to the owning authorization context.
+1. Validate monetary, temporal, and identity fields before decision logic.
+2. Fail closed when a required authority, source, or state store is unavailable.
+3. Scope stable IDs and idempotency to the owning context.
 4. Separate authorization from execution success.
-5. Preserve enough context to rebuild and explain state.
-6. Keep public examples synthetic and private implementations out of public history.
+5. Reconcile internal projections against an external authority before recovery.
+6. Preserve enough evidence to rebuild and explain state.
+7. Keep public examples synthetic and private implementations out of public history.
+
+## Boundaries
+
+LASZLO and JANOS are private research labs, not public SDKs. Public summaries
+omit data entitlements, providers, strategies, thresholds, credentials,
+signing, routing, account state, incidents, and operator telemetry.
 
 ## Further reading
 
-- [Public projects](../projects/README.md)
+- [Portfolio](../projects/README.md)
+- [Open-source policy](../open-source/README.md)
 - [KeyVeil architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md)
 - [Omni architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)

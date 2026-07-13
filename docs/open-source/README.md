@@ -1,6 +1,6 @@
 # Open-Source Policy
 
-LASZLO Quantification publishes reusable contracts and synthetic reference
+Jinstone Labs publishes reusable contracts and synthetic reference
 implementations while keeping production systems and data private.
 
 ## Publication checklist

@@ -13,12 +13,12 @@ credentials or private data into public repositories.
 ## Enforcement
 
 Report conduct concerns privately to the organization owner through the
-contact information on [wisdomechoes.net](https://wisdomechoes.net). Reports
+contact information on [wisdomechoes.net](https://wisdomechoes.net/connect). Reports
 will be reviewed confidentially and proportionately. Project maintainers may
 remove content or restrict participation when necessary to protect the
 community and repositories.
 
 ## Scope
 
-This policy applies to LASZLO Quantification public repositories, discussions,
+This policy applies to Jinstone Labs public repositories, discussions,
 issues, pull requests, and official project communication channels.
