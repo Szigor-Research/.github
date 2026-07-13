@@ -43,7 +43,7 @@ are not reduced copies of the private labs.
 ## Shared operating model
 
 ```mermaid
-flowchart LR
+flowchart TD
     E["Evidence"] --> T["Temporal and identity contracts"]
     T --> D["Decision model"]
     D --> G["Risk or policy gate"]
