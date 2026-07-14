@@ -48,5 +48,5 @@ signing, routing, account state, incidents, and operator telemetry.
 
 - [Portfolio](../projects/README.md)
 - [Open-source policy](../open-source/README.md)
-- [KeyVeil architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md)
-- [Omni architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)
+- [KeyVeil architecture](https://github.com/Szigor-Research/KeyVeil/blob/main/docs/ARCHITECTURE.md)
+- [Omni architecture](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)

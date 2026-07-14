@@ -4,10 +4,10 @@
 
 **Evidence-bound decision systems for markets and autonomous software.**
 
-[Portfolio](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects) |
-[Architecture](https://github.com/LASZLO-Quantification/.github/blob/main/docs/architecture/overview.md) |
-[Open-source policy](https://github.com/LASZLO-Quantification/.github/blob/main/docs/open-source/README.md) |
-[Security](https://github.com/LASZLO-Quantification/.github/blob/main/SECURITY.md) |
+[Portfolio](https://github.com/Szigor-Research/.github/tree/main/docs/projects) |
+[Architecture](https://github.com/Szigor-Research/.github/blob/main/docs/architecture/overview.md) |
+[Open-source policy](https://github.com/Szigor-Research/.github/blob/main/docs/open-source/README.md) |
+[Security](https://github.com/Szigor-Research/.github/blob/main/SECURITY.md) |
 [Field notes](https://wisdomechoes.net/project)
 
 <sub>Hong Kong | Private research labs and public reference implementations</sub>
@@ -35,8 +35,8 @@ operator telemetry remain private.
 
 | Project | Demonstrates | Maturity |
 |---|---|---|
-| [**KeyVeil**](https://github.com/LASZLO-Quantification/KeyVeil) | Fail-closed policy, verified approval context, atomic budget reservation, and hashed receipts for AI-agent payment intents | Alpha reference; no signer or funds |
-| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Signals, execution constraints, local ledger replay, portfolio state, and backtesting | Runnable research reference; no broker connection |
+| [**KeyVeil**](https://github.com/Szigor-Research/KeyVeil) | Fail-closed policy, verified approval context, atomic budget reservation, and hashed receipts for AI-agent payment intents | Alpha reference; no signer or funds |
+| [**Omni-Asset Quant Terminal**](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal) | Signals, execution constraints, local ledger replay, portfolio state, and backtesting | Runnable research reference; no broker connection |
 
 Public repositories contain generic contracts and synthetic examples. They
 are not reduced copies of the private labs.
@@ -67,7 +67,7 @@ flowchart TD
 
 We are open to technical work around point-in-time market research, auditable
 automation, agent authorization, edge decision systems, and operator risk
-tooling. Start with the [portfolio index](https://github.com/LASZLO-Quantification/.github/tree/main/docs/projects)
+tooling. Start with the [portfolio index](https://github.com/Szigor-Research/.github/tree/main/docs/projects)
 or contact us through [wisdomechoes.net](https://wisdomechoes.net/connect).
 
 ## Notice

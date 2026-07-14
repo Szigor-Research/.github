@@ -17,8 +17,8 @@ products, and the boundaries around private research labs.
 ## Repository classes
 
 - Private research labs: LASZLO and JANOS.
-- Public references: [KeyVeil](https://github.com/LASZLO-Quantification/KeyVeil)
-  and [Omni-Asset Quant Terminal](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal).
+- Public references: [KeyVeil](https://github.com/Szigor-Research/KeyVeil)
+  and [Omni-Asset Quant Terminal](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal).
 - Public governance: this `.github` repository.
 
 ## Boundaries

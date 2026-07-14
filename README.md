@@ -2,15 +2,14 @@
 
 Organization profile and public governance repository for Szigor Research.
 
-The GitHub login remains `LASZLO-Quantification` during the staged brand
-migration. Repository URLs using that login remain canonical until the handle
-migration checklist is complete.
+The canonical GitHub organization is `Szigor-Research`. The handle migration is
+complete; repository URLs under the new organization are authoritative.
 
 | Path | Purpose |
 |---|---|
 | [`profile/README.md`](profile/README.md) | Organization homepage and portfolio map |
 | [`docs/`](docs/) | Architecture, projects, publication policy, brand, and research index |
-| [`docs/brand/MIGRATION.md`](docs/brand/MIGRATION.md) | Display-name and future handle migration controls |
+| [`docs/brand/MIGRATION.md`](docs/brand/MIGRATION.md) | Completed handle migration record and validation controls |
 | [`SECURITY.md`](SECURITY.md) | Organization security-reporting entry point |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Shared public contribution boundaries |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Public participation standard |

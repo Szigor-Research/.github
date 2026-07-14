@@ -10,7 +10,7 @@ body:
     id: repository
     attributes:
       label: Repository and commit
-      placeholder: LASZLO-Quantification/KeyVeil @ commit SHA
+      placeholder: Szigor-Research/KeyVeil @ commit SHA
     validations:
       required: true
   - type: textarea

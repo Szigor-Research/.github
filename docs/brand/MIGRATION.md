@@ -1,31 +1,32 @@
-# GitHub Brand Migration
+# GitHub Brand Migration Record
 
 ## Current state
 
 - Display brand: **Szigor Research**
-- Current GitHub login: `LASZLO-Quantification`
-- Candidate future login: `Szigor-Research`
+- Canonical GitHub organization: `Szigor-Research`
+- Legacy GitHub login: `LASZLO-Quantification`
+- Migration status: completed in July 2026
 - Product repositories: LASZLO, JANOS, KeyVeil, and Omni-Asset Quant Terminal
 
-The current login remains canonical. A GitHub redirect is useful but is not a
-substitute for updating automation and external dependencies.
+The new organization login is canonical. The legacy GitHub redirect is useful
+for compatibility but is not a substitute for updated automation and external
+dependencies.
 
-## Handle migration gate
+## Post-migration validation
 
-Do not rename the organization login until all items pass:
+The handle migration is complete. Keep these checks current until every external
+dependency has been verified:
 
 1. Inventory clone URLs, submodules, badges, package metadata, GitHub Apps,
    Actions variables, webhooks, Pages, deployment providers, and external docs.
-2. Confirm `Szigor-Research` is available in the GitHub rename UI at execution time.
-3. Freeze repository transfers, releases, and deployment changes for the migration window.
-4. Rename the organization, then update every local remote and canonical URL.
-5. Run CI in all active repositories and verify public badges, raw assets, advisories, and Pages.
-6. Check package indexes and external integrations that may not follow GitHub redirects.
-7. Keep a dated rollback and communication record.
+2. Confirm every local remote and canonical URL uses `Szigor-Research`.
+3. Run CI in all active repositories and verify public badges, raw assets, advisories, and Pages.
+4. Check package indexes and external integrations that may not follow GitHub redirects.
+5. Keep a dated migration and communication record.
 
-## Completed before handle migration
+## Completed migration controls
 
 - Shared display identity no longer treats LASZLO as the organization.
 - Product hierarchy separates private labs from public references.
-- New documentation uses Szigor Research while retaining current canonical URLs.
+- Public documentation uses the `Szigor-Research` canonical URLs.
 - LASZLO visual assets are explicitly product-scoped.

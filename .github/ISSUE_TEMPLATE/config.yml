@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
-    url: https://github.com/LASZLO-Quantification/.github/blob/main/SECURITY.md
+    url: https://github.com/Szigor-Research/.github/blob/main/SECURITY.md
     about: Use the private advisory flow for the affected repository.
   - name: Organization and partnership inquiries
     url: https://wisdomechoes.net/connect

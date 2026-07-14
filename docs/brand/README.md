@@ -8,7 +8,7 @@ Public identity guidance for Szigor Research and its research products.
 - **Short name:** Szigor
 - **Primary line:** Evidence-bound decision systems
 - **Supporting line:** Evidence before action.
-- **Current GitHub login:** `LASZLO-Quantification` during migration
+- **Canonical GitHub organization:** `Szigor-Research`
 
 `Szigor` means rigor or strictness in Hungarian. The name shares a linguistic
 context with LASZLO and JANOS while describing their common engineering

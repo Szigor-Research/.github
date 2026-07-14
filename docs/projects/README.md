@@ -10,8 +10,8 @@ production readiness.
 |---|---|---|---|
 | **LASZLO** | Private | On-chain market research | Point-in-time ingest, model research, risk, execution state, and replay |
 | **JANOS** | Private | US equity research | Dual-price research evidence, constrained portfolios, signed releases, and IBKR Paper recovery |
-| [**KeyVeil**](https://github.com/LASZLO-Quantification/KeyVeil) | Public | Agent payment policy | Alpha reference; no signer, custody, funds, or executor |
-| [**Omni-Asset Quant Terminal**](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal) | Public | Quant research workflow | Runnable local reference; no broker connection or market orders |
+| [**KeyVeil**](https://github.com/Szigor-Research/KeyVeil) | Public | Agent payment policy | Alpha reference; no signer, custody, funds, or executor |
+| [**Omni-Asset Quant Terminal**](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal) | Public | Quant research workflow | Runnable local reference; no broker connection or market orders |
 
 ## Private research labs
 
@@ -32,9 +32,9 @@ intent -> session gate -> organization policy -> decision
                                     |-> approved -> atomic reservation -> receipt
 ```
 
-- [Architecture](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/ARCHITECTURE.md)
-- [Security model](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/SECURITY_MODEL.md)
-- [Open-source boundary](https://github.com/LASZLO-Quantification/KeyVeil/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
+- [Architecture](https://github.com/Szigor-Research/KeyVeil/blob/main/docs/ARCHITECTURE.md)
+- [Security model](https://github.com/Szigor-Research/KeyVeil/blob/main/docs/SECURITY_MODEL.md)
+- [Open-source boundary](https://github.com/Szigor-Research/KeyVeil/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
 
 ## Omni-Asset Quant Terminal
 
@@ -47,8 +47,8 @@ market data -> signal -> constrained estimate -> local confirmation
             -> ledger -> state rebuild -> backtest and export
 ```
 
-- [Architecture](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)
-- [Open-source boundary](https://github.com/LASZLO-Quantification/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
+- [Architecture](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal/blob/main/docs/REFERENCE_ARCHITECTURE.md)
+- [Open-source boundary](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal/blob/main/docs/OPEN_SOURCE_BOUNDARY.md)
 
 ## Publication boundary
 
