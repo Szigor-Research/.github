@@ -1,7 +1,7 @@
 # Szigor Research Visual System
 
 > Direction: **Confluence S / 合流 S**
-> Status: implementation candidate with LASZLO product pilot · 2026-07-15
+> Status: adopted for GitHub organization and product repository surfaces · 2026-07-15
 
 This is the shared identity system for **Szigor Research**, **LASZLO**, and
 **JANOS**. It replaces the earlier LASZLO-only warm-editorial proposal as the
@@ -171,9 +171,8 @@ paragraphs and warnings do not.
   separate review; it does not appear in Szigor or JANOS identity media.
 - `laszlo-sentinel-signal-garden.png` is a rejected family direction. It may be
   retained for audit/history but must not be used as the new master visual.
-- LASZLO dashboards may pilot the endorsed lockup and semantic palette. That
-  product-level pilot does not authorize replacing the public organization
-  avatar or banner; those remain gated by small-size and crop review.
+- LASZLO dashboards may use the endorsed lockup and semantic palette while the
+  public organization avatar remains the full twin-color Szigor mark.
 
 ## 10. Review checklist
 

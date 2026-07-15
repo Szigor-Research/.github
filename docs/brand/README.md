@@ -44,27 +44,26 @@ Do not use LASZLO as shorthand for the organization.
 
 ## Visual status
 
-The **Confluence S** family is now implemented as a review candidate. It gives
+The **Confluence S** family is the adopted public identity for Szigor Research. It gives
 Szigor Research a twin-rail `S`, then uses the same geometry to endorse LASZLO
 and JANOS without implying a parent/subsidiary relationship. Review the full
 system in [`CONFLUENCE_S.md`](CONFLUENCE_S.md) or open
 [`visual-system.html`](visual-system.html).
 
-The candidate is not an automatic approval or authorization to replace live
-organization assets. Before upload:
+The GitHub rollout uses the deterministic exports in `assets/`:
 
-- verify the monochrome mark, circular avatar crop, and 16–24 px behavior;
-- review the three lockups together so LASZLO and JANOS remain visibly parallel;
+- use `szigor-avatar.png` for the organization avatar and `szigor-banner.png` for the profile;
+- use product-specific 2:1 social previews for LASZLO and JANOS;
+- keep the three lockups visibly parallel and preserve their shared geometry;
 - keep the historical LASZLO pulse mark and mascot at the LASZLO product layer;
 - do not use generated campaign art as the deterministic logo master.
 
-LASZLO may use the endorsed lockup and semantic palette as a product-level
-dashboard pilot. That implementation is evidence for review, not implicit
-approval of the public organization avatar or banner.
+LASZLO and JANOS may use their endorsed lockups and semantic palettes at the product layer. The
+organization avatar remains the full twin-color Szigor mark rather than either product identity.
 
 ## Product color separation
 
-The Confluence S candidate uses Signal Ochre (`#C9912F`) for LASZLO, Ledger
+The Confluence S system uses Signal Ochre (`#C9912F`) for LASZLO, Ledger
 Blue (`#345D7E`) for JANOS, and Fusion Clay (`#BC6548`) only at the common proof
 interval. LASZLO's historical amber (`#FFB24D`) remains a compatibility signal
 inside existing product UI until migration is approved. Shared public media use

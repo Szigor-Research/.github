@@ -9,7 +9,7 @@ complete; repository URLs under the new organization are authoritative.
 |---|---|
 | [`profile/README.md`](profile/README.md) | Organization homepage and portfolio map |
 | [`docs/`](docs/) | Architecture, projects, publication policy, brand, and research index |
-| [`docs/brand/CONFLUENCE_S.md`](docs/brand/CONFLUENCE_S.md) | Candidate Szigor / LASZLO / JANOS visual system and asset rules |
+| [`docs/brand/CONFLUENCE_S.md`](docs/brand/CONFLUENCE_S.md) | Adopted Szigor / LASZLO / JANOS visual system and asset rules |
 | [`docs/brand/MIGRATION.md`](docs/brand/MIGRATION.md) | Completed handle migration record and validation controls |
 | [`SECURITY.md`](SECURITY.md) | Organization security-reporting entry point |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Shared public contribution boundaries |

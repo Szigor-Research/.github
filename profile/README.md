@@ -1,6 +1,8 @@
 <div align="center">
 
-# Szigor Research
+<a href="https://github.com/Szigor-Research">
+  <img src="../docs/brand/assets/szigor-banner.png" alt="Szigor Research - Evidence before action" width="100%">
+</a>
 
 **Evidence-bound decision systems for markets and autonomous software.**
 
