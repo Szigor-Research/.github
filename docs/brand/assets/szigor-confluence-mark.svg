@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Szigor Research Confluence S</title>
+  <desc id="desc">Two independent market-system rails converge into one evidence-bound interval at the center of an abstract S, then separate again.</desc>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="square">
+    <path
+      d="M 414 92 C 342 50 224 58 145 122 C 78 176 106 224 223 244 C 239 247 248 251 256 256 C 264 261 273 265 289 268 C 404 288 433 337 368 391 C 291 455 174 461 96 420"
+      stroke="#C9912F"
+      stroke-width="24"
+    />
+    <path
+      d="M 418 128 C 348 88 238 92 166 146 C 108 189 130 218 230 237 C 242 241 250 248 256 256 C 262 264 270 271 282 275 C 381 295 402 323 346 367 C 280 419 182 421 101 385"
+      stroke="#345D7E"
+      stroke-width="24"
+    />
+    <path
+      d="M 218 240 C 237 244 248 250 256 256 C 264 262 275 268 294 272"
+      stroke="#1E1D1A"
+      stroke-width="34"
+      stroke-linecap="butt"
+    />
+  </g>
+  <circle cx="256" cy="256" r="7" fill="#BC6548" />
+</svg>

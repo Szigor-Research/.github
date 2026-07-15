@@ -6,6 +6,7 @@
 
 [Portfolio](https://github.com/Szigor-Research/.github/tree/main/docs/projects) |
 [Architecture](https://github.com/Szigor-Research/.github/blob/main/docs/architecture/overview.md) |
+[Visual system](https://github.com/Szigor-Research/.github/blob/main/docs/brand/CONFLUENCE_S.md) |
 [Open-source policy](https://github.com/Szigor-Research/.github/blob/main/docs/open-source/README.md) |
 [Security](https://github.com/Szigor-Research/.github/blob/main/SECURITY.md) |
 [Field notes](https://wisdomechoes.net/project)

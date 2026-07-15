@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Szigor Research lockup</title>
+  <desc id="desc">Confluence S with the Szigor Research wordmark and Evidence before action line.</desc>
+  <g transform="translate(16 16) scale(.5625)" fill="none" stroke-linejoin="round" stroke-linecap="square">
+    <path d="M 414 92 C 342 50 224 58 145 122 C 78 176 106 224 223 244 C 239 247 248 251 256 256 C 264 261 273 265 289 268 C 404 288 433 337 368 391 C 291 455 174 461 96 420" stroke="#C9912F" stroke-width="24" />
+    <path d="M 418 128 C 348 88 238 92 166 146 C 108 189 130 218 230 237 C 242 241 250 248 256 256 C 262 264 270 271 282 275 C 381 295 402 323 346 367 C 280 419 182 421 101 385" stroke="#345D7E" stroke-width="24" />
+    <path d="M 218 240 C 237 244 248 250 256 256 C 264 262 275 268 294 272" stroke="#1E1D1A" stroke-width="34" stroke-linecap="butt" />
+    <circle cx="256" cy="256" r="7" fill="#BC6548" stroke="none" />
+  </g>
+  <text x="348" y="140" fill="#1E1D1A" font-family="Georgia, 'Noto Serif SC', serif" font-size="104" font-weight="500" letter-spacing="-3">Szigor</text>
+  <text x="356" y="196" fill="#65615A" font-family="'Source Sans Pro', 'Segoe UI', sans-serif" font-size="28" font-weight="600" letter-spacing="9">RESEARCH</text>
+  <line x1="356" y1="222" x2="570" y2="222" stroke="#BC6548" stroke-width="5" />
+  <text x="356" y="258" fill="#65615A" font-family="'IBM Plex Mono', Consolas, monospace" font-size="18" letter-spacing="1.4">EVIDENCE BEFORE ACTION.</text>
+</svg>

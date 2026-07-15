@@ -44,22 +44,36 @@ Do not use LASZLO as shorthand for the organization.
 
 ## Visual status
 
-No Szigor Research organization mark or banner is approved in this repository
-yet. Until a dedicated asset is reviewed:
+The **Confluence S** family is now implemented as a review candidate. It gives
+Szigor Research a twin-rail `S`, then uses the same geometry to endorse LASZLO
+and JANOS without implying a parent/subsidiary relationship. Review the full
+system in [`CONFLUENCE_S.md`](CONFLUENCE_S.md) or open
+[`visual-system.html`](visual-system.html).
 
-- use the text wordmark `Szigor Research` on the organization profile;
-- do not recolor or repurpose the LASZLO pulse mark as the organization logo;
-- treat files named `laszlo-*` as LASZLO product assets or historical material;
-- do not upload a generated visual without checking legibility at GitHub avatar and banner sizes.
+The candidate is not an automatic approval or authorization to replace live
+organization assets. Before upload:
+
+- verify the monochrome mark, circular avatar crop, and 16–24 px behavior;
+- review the three lockups together so LASZLO and JANOS remain visibly parallel;
+- keep the historical LASZLO pulse mark and mascot at the LASZLO product layer;
+- do not use generated campaign art as the deterministic logo master.
+
+LASZLO may use the endorsed lockup and semantic palette as a product-level
+dashboard pilot. That implementation is evidence for review, not implicit
+approval of the public organization avatar or banner.
 
 ## Product color separation
 
-The existing LASZLO amber (`#FFB24D`) remains a LASZLO product accent. The
-Szigor Research organization palette and JANOS product accent remain
-intentionally unassigned until their asset sets are approved. Shared
-documentation may use carbon `#0B0D10`, graphite `#15181D`, and white `#F4F6F8`
-as neutral interface colors. Jinstone visual assets, colors, and marks are not
-part of this organization identity.
+The Confluence S candidate uses Signal Ochre (`#C9912F`) for LASZLO, Ledger
+Blue (`#345D7E`) for JANOS, and Fusion Clay (`#BC6548`) only at the common proof
+interval. LASZLO's historical amber (`#FFB24D`) remains a compatibility signal
+inside existing product UI until migration is approved. Shared public media use
+paper `#F3EEE4`, warm white `#FBF8F1`, carbon `#1E1D1A`, graphite `#65615A`,
+and hairline `#D8D0C3`.
+
+Product identity colors never replace risk, warning, or health semantics.
+Jinstone visual assets, colors, and marks are not part of this organization
+identity.
 
 ## Contact
 
