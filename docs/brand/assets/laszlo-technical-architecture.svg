@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#070809"/>
+  
+    <text x="52" y="65" fill="#F3B52E" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.4">ON-CHAIN RESEARCH SUB-BRAND / TECHNICAL ARCHITECTURE</text>
+    <text x="52" y="128" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="2">EVENT → GATE → EXECUTION → REPLAY</text>
+    <text x="52" y="168" fill="#AEB5BE" font-family="Arial,sans-serif" font-size="17">Stable public hot path; research evidence remains outside runtime authority.</text>
+    
+    <rect x="52" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="52" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="70" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">01</text>
+    <text x="70" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="70" dy="0">BASE L2</tspan><tspan x="70" dy="23">UNISWAP V3</tspan></text>
+    <text x="70" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="70" dy="0">On-chain</tspan><tspan x="70" dy="20">market events</tspan></text><path fill="#F3B52E" d="M222 298 H224 V288 L242 304 L224 320 V310 H222 Z"/>
+    <rect x="246" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="246" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="264" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">02</text>
+    <text x="264" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="264" dy="0">MULTI-RPC</tspan><tspan x="264" dy="23">INGESTOR</tspan></text>
+    <text x="264" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="264" dy="0">WebSocket</tspan><tspan x="264" dy="20">failover</tspan></text><path fill="#F3B52E" d="M416 298 H418 V288 L436 304 L418 320 V310 H416 Z"/>
+    <rect x="440" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="440" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="458" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">03</text>
+    <text x="458" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="458" dy="0">STREAMS +</tspan><tspan x="458" dy="23">FEATURE STATE</tspan></text>
+    <text x="458" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="458" dy="0">Redis streams</tspan><tspan x="458" dy="20">positions</tspan></text><path fill="#F3B52E" d="M610 298 H612 V288 L630 304 L612 320 V310 H610 Z"/>
+    <rect x="634" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="634" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="652" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">04</text>
+    <text x="652" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="652" dy="0">XGBOOST</tspan><tspan x="652" dy="23">STRATEGY</tspan></text>
+    <text x="652" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="652" dy="0">Manifest-locked</tspan><tspan x="652" dy="20">features</tspan></text><path fill="#F3B52E" d="M804 298 H806 V288 L824 304 L806 320 V310 H804 Z"/>
+    <rect x="828" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="828" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="846" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">05</text>
+    <text x="846" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="846" dy="0">RISK +</tspan><tspan x="846" dy="23">ROUTE GATE</tspan></text>
+    <text x="846" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="846" dy="0">Conservative BUY</tspan><tspan x="846" dy="20">fee-tier quote</tspan></text><path fill="#F3B52E" d="M998 298 H1000 V288 L1018 304 L1000 320 V310 H998 Z"/>
+    <rect x="1022" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="1022" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="1040" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">06</text>
+    <text x="1040" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="1040" dy="0">RUST</tspan><tspan x="1040" dy="23">EXECUTOR</tspan></text>
+    <text x="1040" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="1040" dy="0">Paper → Anvil</tspan><tspan x="1040" dy="20">Live by approval</tspan></text><path fill="#F3B52E" d="M1192 298 H1194 V288 L1212 304 L1194 320 V310 H1192 Z"/>
+    <rect x="1216" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="1216" y="210" width="166" height="8" rx="4" fill="#F3B52E"/>
+    <text x="1234" y="246" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">07</text>
+    <text x="1234" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="1234" dy="0">LEDGER +</tspan><tspan x="1234" dy="23">RECONCILE</tspan></text>
+    <text x="1234" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="1234" dy="0">Append-only</tspan><tspan x="1234" dy="20">replayable state</tspan></text>
+    <path fill="#F3B52E" d="M52 468 H1348 V530 H1298 L1268 500 L1238 530 H52 Z"/>
+    <text x="700" y="506" text-anchor="middle" fill="#070809" font-family="Consolas,monospace" font-size="15" font-weight="800" letter-spacing="1.7">AI RESEARCH IS SHADOW-ONLY — NO ORDER, RISK OR CAPITAL AUTHORITY</text>
+    <rect x="52" y="572" width="620" height="150" rx="14" fill="#111419"/>
+    <rect x="728" y="572" width="620" height="150" rx="14" fill="#111419"/>
+    <text x="78" y="612" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6">CONTROL BOUNDARY</text>
+    <text x="78" y="650" text-anchor="start" fill="#C1C5CA" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="78" dy="0">Only rust_executor can transmit a swap.</tspan><tspan x="78" dy="27">BUY fails closed; SELL preserves an escape path.</tspan></text>
+    <text x="754" y="612" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6">CURRENT STATUS</text>
+    <text x="754" y="650" text-anchor="start" fill="#C1C5CA" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="754" dy="0">Paper / Anvil and Live / Base stay separate.</tspan><tspan x="754" dy="27">Live capital requires independent approval.</tspan></text>
+    <text x="52" y="780" fill="#8F96A1" font-family="Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.3">REDIS DELIVERY IS AT-LEAST-ONCE · INTENT IDEMPOTENCY · RECEIPT POLLING WITHOUT RESUBMISSION</text>
+</svg>

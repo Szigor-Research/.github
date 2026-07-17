@@ -16,5 +16,5 @@ complete; repository URLs under the new organization are authoritative.
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Public participation standard |
 
 Szigor Research is the master brand; LASZLO and JANOS are peer research
-sub-brands with equally complete, independent identities. Legacy Confluence S
-assets are archival and are not current marks for any of the three brands.
+sub-brands with equally complete, independent identities. Geometric marks lead
+everyday surfaces; three-dimensional instruments lead editorial imagery.

@@ -46,51 +46,57 @@ to imply an undocumented legal relationship.
 
 ## Visual system
 
-**Witness Cut / Proof Instruments** is the adopted image-led visual system. It
-gives each brand an independent, physically substantial primary emblem:
+**Witness Cut / Proof Instruments** is the adopted two-layer visual system.
+Solid geometric marks lead everyday GitHub, website, favicon, navigation, and
+diagram surfaces; the three-dimensional instruments lead launch and editorial
+imagery.
 
 | Brand | Mark | Signal color |
 | --- | --- | --- |
-| Szigor Research | **Proof Instrument** | Szigor Oxide `#D9553B` |
-| LASZLO | **Triangle Pulse** | LASZLO Signal `#F3B52E` |
-| JANOS | **Ledger Window** | JANOS Ledger `#3979E8` |
+| Szigor Research | **Evidence Frame** | Szigor Blue `#3979E8` |
+| LASZLO | **Signal Gate** | LASZLO Gold `#F3B52E` |
+| JANOS | **Proof Engine** | JANOS Oxide `#D9553B` |
 
 The common Witness Cut is a proof aperture or controlled interruption, not a
 shared silhouette. Szigor is the master brand, but all three identities receive
-the same professional completeness: high-resolution emblem, lockup, avatar,
-favicons, banner, social preview, and campaign direction.
+the same professional completeness: primary, monochrome and reverse vectors;
+lockups; avatar; favicons; banner; social preview; and a three-dimensional
+campaign instrument.
 
-Read the canonical specification in [`WITNESS_CUT.md`](WITNESS_CUT.md), review
-the approved three-brand hero in
+Read the canonical specification in [`WITNESS_CUT.md`](WITNESS_CUT.md), the
+production rules in [`GEOMETRIC_LOGOS.md`](GEOMETRIC_LOGOS.md), review the
+approved three-brand hero in
 [`family-proof-instruments-hero.png`](assets/family-proof-instruments-hero.png),
 or open the runnable [`visual-system.html`](visual-system.html).
 
 ## Asset use
 
-- Use `szigor-avatar.png` for the organization avatar and
-  `szigor-banner.png` for the organization profile.
+- Use the blue `szigor-geometric.svg` system for the organization avatar,
+  website navigation, favicons, and small UI. `szigor-avatar.png` and
+  `szigor-banner.png` are the prepared GitHub exports.
 - Use each product's own avatar, banner, and social preview in its repository.
-- Use each brand's approved high-resolution emblem as the identity master and
-  the prepared PNG lockup for GitHub documentation.
-- Keep public hero and campaign media image-led. Thin rules, grids, and
-  pseudo-technical diagrams are support, never a substitute for a finished
-  visual.
-- Never trace the emblems into thin vectors or ask an image model to add brand
-  text, evidence labels, or fake interface content.
+- Use the geometric SVG as the small and everyday identity master. Use the
+  corresponding three-dimensional instrument only at editorial scale.
+- Use `brand-architecture-map.svg` when showing the Szigor → LASZLO / JANOS
+  relationship; do not weld the three marks into a composite logo.
+- Keep public hero and campaign media image-led. Thin rules and generic grids
+  are never a substitute for a finished visual.
+- Never trace the instruments into thin outlines or ask an image model to add
+  brand text, evidence labels, or fake interface content.
 - Keep LASZLO's Inversion Sentinel at the LASZLO campaign layer only.
-- Treat all `*-confluence-*` files and `szigor-confluence-hero.png` as archival,
-  not current identity assets.
+- Treat every superseded identity study as archive material, not a current
+  production asset.
 
-The production kit is PNG so the approved materials, mass, and lighting remain
-intact. Product identity colors never replace risk, warning, or health
+SVG is the deterministic geometric source. PNG is the prepared integration and
+GitHub export. Product identity colors never replace risk, warning, or health
 semantics.
 
 ## Shared fields
 
-The system uses Instrument Black (`#0B0D10`), Calibration Paper (`#F4F3EE`),
-Instrument White (`#FFFDF8`), Evidence Gray (`#626872`), and Cool Gray
-(`#8F96A1`). Jinstone visual assets, colors, and marks are not part of this
-identity.
+The system uses Instrument Black (`#070809`), Instrument White (`#F1EEE7`),
+Evidence Gray (`#626872`), and Cool Gray (`#8F96A1`). Szigor owns Blue
+(`#3979E8`), LASZLO owns Gold (`#F3B52E`), and JANOS owns Oxide (`#D9553B`).
+Jinstone visual assets, colors, and marks are not part of this identity.
 
 ## Contact
 

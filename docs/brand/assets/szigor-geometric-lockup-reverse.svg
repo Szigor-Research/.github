@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  
+  
+    <g transform="translate(44 24) scale(0.53)">
+    <path fill="#3979E8" d="M60 74 H220 V156 L244 194 L220 228 V284 L244 318 L220 356 V438 H60 L22 400 V112 Z"/>
+    <path fill="#3979E8" d="M452 74 H292 V156 L268 194 L292 228 V284 L268 318 L292 356 V438 H452 L490 400 V112 Z"/>
+    <path fill="#78A7FF" d="M60 74 H220 V112 H78 L60 130 Z M452 74 H292 V112 H434 L452 130 Z"/>
+    <path fill="#F1EEE7" d="M256 142 L310 210 H282 V326 H230 V210 H202 Z"/></g>
+    <text x="360" y="132" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="8">SZIGOR RESEARCH</text>
+    <rect x="360" y="158" width="186" height="8" fill="#3979E8"/>
+    <text x="360" y="210" fill="#B6BBC2" font-family="Arial,sans-serif" font-size="20" font-weight="500">One evidence standard. Two independent research systems.</text>
+    <text x="360" y="260" fill="#B6BBC2" font-family="Consolas,monospace" font-size="11" font-weight="600" letter-spacing="2">MASTER RESEARCH BRAND / EVIDENCE FRAME</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <rect width="1400" height="980" fill="#070809"/>
+  
+    <text x="70" y="68" fill="#3979E8" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.5">BRAND ARCHITECTURE / CONTROLLED ENDORSEMENT</text>
+    <text x="70" y="128" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="2">ONE STANDARD. TWO INDEPENDENT SYSTEMS.</text>
+
+    <rect x="360" y="170" width="680" height="240" rx="22" fill="#0B1429"/>
+    <rect x="360" y="170" width="680" height="11" rx="5" fill="#3979E8"/>
+    <g transform="translate(405 193) scale(0.34)">
+    <path fill="#3979E8" d="M60 74 H220 V156 L244 194 L220 228 V284 L244 318 L220 356 V438 H60 L22 400 V112 Z"/>
+    <path fill="#3979E8" d="M452 74 H292 V156 L268 194 L292 228 V284 L268 318 L292 356 V438 H452 L490 400 V112 Z"/>
+    <path fill="#78A7FF" d="M60 74 H220 V112 H78 L60 130 Z M452 74 H292 V112 H434 L452 130 Z"/>
+    <path fill="#F1EEE7" d="M256 142 L310 210 H282 V326 H230 V210 H202 Z"/></g>
+    <text x="620" y="260" fill="#3979E8" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">MASTER RESEARCH BRAND</text>
+    <text x="620" y="318" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="5">SZIGOR RESEARCH</text>
+    <text x="620" y="358" fill="#AEB5BE" font-family="Arial,sans-serif" font-size="18">Evidence governance · shared engineering standard · portfolio</text>
+
+    <path d="M520 448 H880 V496 H964 L700 596 L436 496 H520 Z" fill="#3979E8"/>
+    <text x="700" y="505" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,monospace" font-size="16" font-weight="800" letter-spacing="2">EVIDENCE BEFORE ACTION</text>
+    <text x="700" y="541" text-anchor="middle" fill="#DDE8FF" font-family="Arial,sans-serif" font-size="16" font-weight="600">Shared proof discipline · separate authority</text>
+
+    <rect x="70" y="630" width="600" height="240" rx="22" fill="#111419"/>
+    <rect x="70" y="630" width="600" height="11" rx="5" fill="#F3B52E"/>
+    <g transform="translate(105 660) scale(0.31)">
+      <path fill="#F3B52E" fill-rule="evenodd" d="
+        M256 38 L474 420 H332 L291 354 L256 474 L221 354 L180 420 H38 Z
+        M256 142 L382 360 H312 L281 308 L256 388 L231 308 L200 360 H130 Z"/>
+      <path fill="#A56D00" d="M221 354 L256 474 L291 354 L275 328 L256 389 L237 328 Z"/></g>
+    <text x="310" y="706" fill="#F3B52E" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">RESEARCH SUB-BRAND / ON-CHAIN</text>
+    <text x="310" y="762" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="6">LASZLO</text>
+    <text x="310" y="804" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="310" dy="0">Events · risk gates · execution state</tspan><tspan x="310" dy="27">Independent data, models, accounts and capital</tspan></text>
+
+    <rect x="730" y="630" width="600" height="240" rx="22" fill="#111419"/>
+    <rect x="730" y="630" width="600" height="11" rx="5" fill="#D9553B"/>
+    <g transform="translate(765 660) scale(0.31)">
+      <path fill="#6F7782" d="M92 62 H364 L438 136 V220 H340 L314 190 H198 L172 220 H74 V136 Z"/>
+      <path fill="#6F7782" d="M74 292 H172 L198 322 H314 L340 292 H438 V376 L364 450 H148 L74 376 Z"/>
+      <rect x="168" y="190" width="176" height="132" rx="10" fill="#D9553B"/>
+      <circle cx="126" cy="256" r="50" fill="#B8BEC6"/>
+      <circle cx="126" cy="256" r="25" fill="#6F7782"/>
+      <path fill="#B8BEC6" d="M300 206 H326 V306 H300 Z M334 206 H348 V306 H334 Z"/></g>
+    <text x="970" y="706" fill="#D9553B" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">RESEARCH SUB-BRAND / US EQUITIES</text>
+    <text x="970" y="762" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="6">JANOS</text>
+    <text x="970" y="804" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="970" dy="0">Point-in-time evidence · releases · Paper control</tspan><tspan x="970" dy="27">Independent data, models, accounts and capital</tspan></text>
+
+    <text x="700" y="938" text-anchor="middle" fill="#8F96A1" font-family="Consolas,monospace" font-size="12" font-weight="600" letter-spacing="1.5">BRAND HIERARCHY DOES NOT BY ITSELF ASSERT LEGAL OWNERSHIP, SHARED ACCOUNTS OR SHARED CAPITAL.</text>
+</svg>

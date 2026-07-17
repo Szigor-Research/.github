@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#050912"/>
+  
+    <rect x="740" width="540" height="640" fill="#071125"/>
+    <g transform="translate(800 68) scale(0.86)">
+    <path fill="#3979E8" d="M60 74 H220 V156 L244 194 L220 228 V284 L244 318 L220 356 V438 H60 L22 400 V112 Z"/>
+    <path fill="#3979E8" d="M452 74 H292 V156 L268 194 L292 228 V284 L268 318 L292 356 V438 H452 L490 400 V112 Z"/>
+    <path fill="#78A7FF" d="M60 74 H220 V112 H78 L60 130 Z M452 74 H292 V112 H434 L452 130 Z"/>
+    <path fill="#F1EEE7" d="M256 142 L310 210 H282 V326 H230 V210 H202 Z"/></g>
+    <text x="78" y="106" fill="#3979E8" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.5">MASTER RESEARCH BRAND</text>
+    <text x="78" y="270" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="8">SZIGOR RESEARCH</text>
+    <rect x="78" y="306" width="230" height="9" fill="#3979E8"/>
+    <text x="78" y="370" text-anchor="start" fill="#D6D4CE" font-family="Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="0"><tspan x="78" dy="0">One evidence standard. Two independent research systems.</tspan></text>
+    <text x="78" y="454" fill="#8F96A1" font-family="Consolas,monospace" font-size="12" font-weight="600" letter-spacing="2">GOVERNANCE  /  PROOF  /  RECOVERABLE STATE</text>
+    <text x="78" y="562" fill="#626872" font-family="Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.8">SZIGOR RESEARCH / PROOF INSTRUMENTS / SYSTEM 02</text>
+</svg>

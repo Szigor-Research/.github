@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#070809"/>
+  
+    <rect x="740" width="540" height="640" fill="#0B0D10"/>
+    <g transform="translate(800 68) scale(0.86)">
+      <path fill="#6F7782" d="M92 62 H364 L438 136 V220 H340 L314 190 H198 L172 220 H74 V136 Z"/>
+      <path fill="#6F7782" d="M74 292 H172 L198 322 H314 L340 292 H438 V376 L364 450 H148 L74 376 Z"/>
+      <rect x="168" y="190" width="176" height="132" rx="10" fill="#D9553B"/>
+      <circle cx="126" cy="256" r="50" fill="#B8BEC6"/>
+      <circle cx="126" cy="256" r="25" fill="#6F7782"/>
+      <path fill="#B8BEC6" d="M300 206 H326 V306 H300 Z M334 206 H348 V306 H334 Z"/></g>
+    <text x="78" y="106" fill="#D9553B" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.5">US EQUITY RESEARCH SUB-BRAND</text>
+    <text x="78" y="270" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="8">JANOS</text>
+    <rect x="78" y="306" width="230" height="9" fill="#D9553B"/>
+    <text x="78" y="370" text-anchor="start" fill="#D6D4CE" font-family="Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="0"><tspan x="78" dy="0">Every price has a time. Every action has a record.</tspan></text>
+    <text x="78" y="454" fill="#8F96A1" font-family="Consolas,monospace" font-size="12" font-weight="600" letter-spacing="2">POINT-IN-TIME  /  RELEASE  /  RECONCILIATION</text>
+    <text x="78" y="562" fill="#626872" font-family="Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.8">SZIGOR RESEARCH / PROOF INSTRUMENTS / SYSTEM 02</text>
+</svg>

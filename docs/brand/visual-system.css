@@ -8,9 +8,9 @@
   --smoke: #8b8e91;
   --rule: rgba(241, 238, 231, .14);
   --rule-dark: rgba(7, 8, 9, .16);
-  --proof: #d9553b;
+  --proof: #3979e8;
   --signal: #f3b52e;
-  --ledger: #3979e8;
+  --ledger: #d9553b;
   --display: "Iowan Old Style", "Palatino Linotype", Baskerville, Georgia, serif;
   --sans: Inter, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
@@ -322,7 +322,36 @@ button, input, textarea, select { font: inherit; }
 
 .brand-card--szigor .brand-card__topline span:first-child { color: var(--proof); }
 .brand-card--laszlo .brand-card__topline span:first-child { color: var(--signal); }
-.brand-card--janos .brand-card__topline span:first-child { color: #70a3ff; }
+.brand-card--janos .brand-card__topline span:first-child { color: var(--ledger); }
+
+.geometric-system,
+.architecture-diagram {
+  max-width: 1680px;
+  margin: 0 auto clamp(28px, 4vw, 64px);
+  overflow: hidden;
+  background: #090b0e;
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+
+.geometric-system img,
+.architecture-diagram img {
+  width: 100%;
+  height: auto;
+}
+
+.geometric-system figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 22px;
+  border-top: 1px solid var(--rule);
+  color: var(--smoke);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.geometric-system figcaption strong { color: var(--paper); font-weight: 600; }
 
 .language {
   background: var(--paper);

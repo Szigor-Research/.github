@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Szigor-Research">
-  <img src="../docs/brand/assets/szigor-banner.png" alt="Szigor Research - Evidence before action" width="100%">
+  <img src="../docs/brand/assets/szigor-banner.png" alt="Szigor Research — one evidence standard, two independent research systems" width="100%">
 </a>
 
 **Evidence-bound decision systems for markets and autonomous software.**
@@ -13,82 +13,107 @@
 [Security](https://github.com/Szigor-Research/.github/blob/main/SECURITY.md) |
 [Field notes](https://wisdomechoes.net/project)
 
-<sub>Hong Kong | Private research labs and public reference implementations</sub>
+<sub>Hong Kong · Private research systems · Public engineering standards</sub>
 
 </div>
 
 ---
 
-## Research brands
+## The identity family
 
-Szigor Research is the master research brand. LASZLO and JANOS are specialist
-sub-brands beneath it and peers to each other. Each brand has an independent
-primary mark and the same professional level of identity, documentation, and
-delivery. The brand structure does not by itself claim a legal holding-company,
-equity, account, or IP relationship.
+The geometric marks are the everyday identity for GitHub, websites, navigation,
+favicons, diagrams, and small interfaces. The three-dimensional instruments
+remain the launch and editorial image world.
 
-<img src="../docs/brand/assets/family-proof-instruments-hero.png" alt="The LASZLO Signal Gate, Szigor Proof Instrument, and JANOS Ledger Window" width="100%">
+<img src="../docs/brand/assets/family-geometric-system.svg" alt="LASZLO Signal Gate, JANOS Proof Engine, and Szigor Evidence Frame geometric identity family" width="100%">
 
-| Brand | Role | Research boundary | Identity instrument | Current mode |
-|---|---|---|---|---|
-| **Szigor Research** | Master research brand | Public engineering standards, evidence governance, and portfolio | Proof Instrument | Public research identity |
-| **LASZLO** | On-chain research sub-brand | Point-in-time ingestion, model research, deterministic risk gates, execution state, and replay | Triangle Pulse | Private systems research |
-| **JANOS** | US equity research sub-brand | Dual-price datasets, company evidence, constrained portfolios, broker-state recovery, and signed releases | Ledger Window | Private systems research; IBKR Paper only |
+<img src="../docs/brand/assets/family-proof-instruments-hero.png" alt="From left to right: LASZLO, JANOS, and Szigor Research proof instruments" width="100%">
 
-The three identities follow one Witness Cut standard of proof without sharing
-one logo. The research systems share engineering discipline, not strategy code
-or unsupported performance claims. Real data, credentials, models, routing
-details, and operator telemetry remain private.
+| Brand | Role | Mark | Research boundary |
+| --- | --- | --- | --- |
+| **Szigor Research** | Master research brand | Blue **Evidence Frame** | Evidence governance, shared engineering standard, and portfolio |
+| **LASZLO** | Peer research sub-brand | Gold **Signal Gate** | On-chain events, model research, risk gates, execution state, and replay |
+| **JANOS** | Peer research sub-brand | Black/red **Proof Engine** | US equity evidence, signed releases, deterministic Paper control, and reconciliation |
 
-## Public reference products
+## Brand architecture
+
+Szigor defines the evidence standard. LASZLO and JANOS apply that standard in
+different markets while keeping runtime data, credentials, models, releases,
+accounts, capital state, and audit stores separate.
+
+<img src="../docs/brand/assets/brand-architecture-map.svg" alt="Szigor Research master brand flows through one evidence standard to the independent LASZLO and JANOS research sub-brands" width="100%">
+
+Brand hierarchy communicates method and endorsement. It does not by itself
+assert legal ownership, shared accounts, shared capital, or interchangeable
+operating authority.
+
+## Technical architecture
+
+### LASZLO · on-chain research
+
+LASZLO turns Base L2 and Uniswap V3 events into bounded decisions through
+multi-RPC ingestion, stream and feature state, a manifest-locked strategy,
+explicit risk and route gates, one Rust execution boundary, and replayable
+ledger state.
+
+<img src="../docs/brand/assets/laszlo-technical-architecture.svg" alt="LASZLO technical architecture from Base L2 events through risk gates, Rust execution, and reconciliation" width="100%">
+
+AI-derived evidence remains shadow research input and has no order, risk, or
+capital authority. Only the executor can transmit a swap; Paper/Anvil and
+Live/Base remain visibly separate.
+
+### JANOS · US equity research
+
+JANOS turns point-in-time market and company evidence into immutable datasets,
+frozen experiments, authenticated releases, and deterministic IBKR DU Paper
+control with halt, recovery, reconciliation, and hash-chained audit evidence.
+
+<img src="../docs/brand/assets/janos-technical-architecture.svg" alt="JANOS technical architecture from point-in-time evidence through an HMAC release gate to deterministic IBKR DU Paper control" width="100%">
+
+AI may propose hypotheses and versioned artifacts; it has no runtime order
+path. Offline and PostgreSQL-backed controls are verified. Accepted licensed
+data, monitored SEC retrieval, a real DU Paper acceptance run, and Paper
+observation remain external gates. No live-capital route exists.
+
+## Shared engineering standard
+
+| Principle | Operating rule |
+| --- | --- |
+| **Point-in-time first** | Event time and first-known availability remain distinct. |
+| **Fail closed** | Missing authority, data identity, or recovery state cannot authorize new exposure. |
+| **Deterministic authority** | AI may propose; releases, policy, risk, and execution stay explicit. |
+| **Verifiable state** | Datasets, releases, receipts, ledgers, and recovery evidence are content-bound. |
+| **Recoverable operation** | Reconciliation and replay are part of the system, not afterthoughts. |
+| **Honest maturity** | Synthetic tests, Paper controls, and pending external acceptance are labeled precisely. |
+
+## Public reference systems
 
 | Project | Demonstrates | Maturity |
-|---|---|---|
-| [**KeyVeil**](https://github.com/Szigor-Research/KeyVeil) | Fail-closed policy, verified approval context, atomic budget reservation, and hashed receipts for AI-agent payment intents | Alpha reference; no signer or funds |
+| --- | --- | --- |
+| [**KeyVeil**](https://github.com/Szigor-Research/KeyVeil) | Fail-closed authorization, verified approval context, atomic budget reservation, and hashed receipts for AI-agent payment intents | Alpha reference; no signer or funds |
 | [**Omni-Asset Quant Terminal**](https://github.com/Szigor-Research/Omni-Asset-Quant-Terminal) | Signals, execution constraints, local ledger replay, portfolio state, and backtesting | Runnable research reference; no broker connection |
 
-Public repositories contain generic contracts and synthetic examples. They
-are not reduced copies of the private labs.
-
-## Shared operating model
-
-```mermaid
-flowchart TD
-    E["Evidence"] --> T["Temporal and identity contracts"]
-    T --> D["Decision model"]
-    D --> G["Risk or policy gate"]
-    G -->|"blocked or review"| A["Versioned evidence"]
-    G -->|"approved"| X["Trusted adapter boundary"]
-    X --> R["Reconciliation and audit"]
-    R --> A
-```
-
-## Engineering standard
-
-- **Point-in-time first:** event time and availability time are separate.
-- **Fail closed:** missing authority, data, or recovery state cannot authorize action.
-- **Deterministic boundaries:** AI may propose; policy, risk, and execution remain explicit.
-- **Verifiable state:** releases, receipts, ledgers, and recovery evidence are content-bound.
-- **Honest maturity:** synthetic tests are not presented as live, licensed, or production proof.
-- **Private by default:** credentials, real account data, models, and incident evidence stay private.
+Public repositories contain generic contracts and synthetic examples. They are
+not reduced copies of the private research systems.
 
 ## Collaboration
 
 We are open to technical work around point-in-time market research, auditable
-automation, agent authorization, edge decision systems, and operator risk
-tooling. Start with the [portfolio index](https://github.com/Szigor-Research/.github/tree/main/docs/projects)
-or contact us through [wisdomechoes.net](https://wisdomechoes.net/connect).
+automation, agent authorization, execution controls, and operator risk tooling.
+Start with the [portfolio index](https://github.com/Szigor-Research/.github/tree/main/docs/projects)
+or contact us through [wisdomechoes.net](https://wisdomeechoes.net/connect).
 
 ## Notice
 
 Public repositories are engineering references. They do not provide custody,
 brokerage, investment advice, guaranteed returns, or production payment
-execution. Review each repository's security model and limitations before use.
+execution. Real credentials, account data, licensed datasets, models, routing
+details, and incident evidence remain private.
 
 ---
 
 <div align="center">
 
-**Szigor Research** | *Evidence before action.*
+**Szigor Research** · *Evidence before action.*
 
 </div>
