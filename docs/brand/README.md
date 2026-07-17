@@ -1,6 +1,6 @@
 # Brand Guidelines
 
-Public identity guidance for Szigor Research and its research products.
+Public identity guidance for Szigor Research and its research sub-brands.
 
 ## Organization identity
 
@@ -10,29 +10,31 @@ Public identity guidance for Szigor Research and its research products.
 - **Supporting line:** Evidence before action.
 - **Canonical GitHub organization:** `Szigor-Research`
 
-`Szigor` means rigor or strictness in Hungarian. The name shares a linguistic
-context with LASZLO and JANOS while describing their common engineering
-discipline rather than another product.
+`Szigor` means rigor or strictness in Hungarian. It is the master research
+brand for a portfolio that includes LASZLO and JANOS.
 
-Szigor Research is a shared public research identity, not a legal holding
-company. LASZLO and JANOS are parallel private research labs. KeyVeil and
-Omni-Asset Quant Terminal retain their own product names and interfaces.
-Szigor Research has no brand, IP, equity, or organizational relationship with
-Jinstone, the independent edge-AI and semiconductor project.
+Szigor Research is a brand and public research identity, not by itself a legal
+holding company. LASZLO and JANOS are specialist research sub-brands under
+Szigor and peers to each other. KeyVeil and Omni-Asset Quant Terminal retain
+their own project names and interfaces. Szigor Research has no brand, IP,
+equity, or organizational relationship with Jinstone, the independent edge-AI
+and semiconductor project.
 
 Until a legal owner exists and receives a written assignment, public repository
-copyright remains attributed to Fanrui Kong. Organization branding does not
+copyright remains attributed to Fanrui Kong. Brand architecture does not
 transfer ownership by implication.
 
 ## Naming hierarchy
 
 | Level | Names | Rule |
-|---|---|---|
-| Organization | Szigor Research | Use for the GitHub portfolio, public governance, and shared engineering standards. It does not imply common legal ownership. |
-| Private labs | LASZLO, JANOS | Use only for the corresponding market research system. |
-| Public products | KeyVeil, Omni-Asset Quant Terminal | Use for reusable reference implementations. |
+| --- | --- | --- |
+| Master research brand | Szigor Research | Use for the GitHub portfolio, public governance, and common engineering standard. |
+| Research sub-brands | LASZLO, JANOS | Use for the corresponding market research system. They are peers and each leads with its own identity. |
+| Public reference projects | KeyVeil, Omni-Asset Quant Terminal | Use for reusable reference implementations in the Szigor portfolio. |
 
-Do not use LASZLO as shorthand for the organization.
+Do not use LASZLO as shorthand for the organization. Do not describe LASZLO or
+JANOS as independent of Szigor in brand terms; do not use the brand hierarchy
+to imply an undocumented legal relationship.
 
 ## Voice
 
@@ -42,38 +44,54 @@ Do not use LASZLO as shorthand for the organization.
 - Avoid return promises, urgency, exaggerated security claims, or unsupported maturity labels.
 - Name external acceptance work instead of implying it has passed.
 
-## Visual status
+## Visual system
 
-The **Confluence S** family is the adopted public identity for Szigor Research. It gives
-Szigor Research a twin-rail `S`, then uses the same geometry to endorse LASZLO
-and JANOS without implying a parent/subsidiary relationship. Review the full
-system in [`CONFLUENCE_S.md`](CONFLUENCE_S.md) or open
-[`visual-system.html`](visual-system.html).
+**Witness Cut / Proof Instruments** is the adopted image-led visual system. It
+gives each brand an independent, physically substantial primary emblem:
 
-The GitHub rollout uses the deterministic exports in `assets/`:
+| Brand | Mark | Signal color |
+| --- | --- | --- |
+| Szigor Research | **Proof Instrument** | Szigor Oxide `#D9553B` |
+| LASZLO | **Triangle Pulse** | LASZLO Signal `#F3B52E` |
+| JANOS | **Ledger Window** | JANOS Ledger `#3979E8` |
 
-- use `szigor-avatar.png` for the organization avatar and `szigor-banner.png` for the profile;
-- use product-specific 2:1 social previews for LASZLO and JANOS;
-- keep the three lockups visibly parallel and preserve their shared geometry;
-- keep the historical LASZLO pulse mark and mascot at the LASZLO product layer;
-- do not use generated campaign art as the deterministic logo master.
+The common Witness Cut is a proof aperture or controlled interruption, not a
+shared silhouette. Szigor is the master brand, but all three identities receive
+the same professional completeness: high-resolution emblem, lockup, avatar,
+favicons, banner, social preview, and campaign direction.
 
-LASZLO and JANOS may use their endorsed lockups and semantic palettes at the product layer. The
-organization avatar remains the full twin-color Szigor mark rather than either product identity.
+Read the canonical specification in [`WITNESS_CUT.md`](WITNESS_CUT.md), review
+the approved three-brand hero in
+[`family-proof-instruments-hero.png`](assets/family-proof-instruments-hero.png),
+or open the runnable [`visual-system.html`](visual-system.html).
 
-## Product color separation
+## Asset use
 
-The Confluence S system uses Signal Ochre (`#C9912F`) for LASZLO, Ledger
-Blue (`#345D7E`) for JANOS, and Fusion Clay (`#BC6548`) only at the common proof
-interval. LASZLO's historical amber (`#FFB24D`) remains a compatibility signal
-inside existing product UI until migration is approved. Shared public media use
-paper `#F3EEE4`, warm white `#FBF8F1`, carbon `#1E1D1A`, graphite `#65615A`,
-and hairline `#D8D0C3`.
+- Use `szigor-avatar.png` for the organization avatar and
+  `szigor-banner.png` for the organization profile.
+- Use each product's own avatar, banner, and social preview in its repository.
+- Use each brand's approved high-resolution emblem as the identity master and
+  the prepared PNG lockup for GitHub documentation.
+- Keep public hero and campaign media image-led. Thin rules, grids, and
+  pseudo-technical diagrams are support, never a substitute for a finished
+  visual.
+- Never trace the emblems into thin vectors or ask an image model to add brand
+  text, evidence labels, or fake interface content.
+- Keep LASZLO's Inversion Sentinel at the LASZLO campaign layer only.
+- Treat all `*-confluence-*` files and `szigor-confluence-hero.png` as archival,
+  not current identity assets.
 
-Product identity colors never replace risk, warning, or health semantics.
-Jinstone visual assets, colors, and marks are not part of this organization
+The production kit is PNG so the approved materials, mass, and lighting remain
+intact. Product identity colors never replace risk, warning, or health
+semantics.
+
+## Shared fields
+
+The system uses Instrument Black (`#0B0D10`), Calibration Paper (`#F4F3EE`),
+Instrument White (`#FFFDF8`), Evidence Gray (`#626872`), and Cool Gray
+(`#8F96A1`). Jinstone visual assets, colors, and marks are not part of this
 identity.
 
 ## Contact
 
-Brand and partnership inquiries: [wisdomechoes.net/connect](https://wisdomechoes.net/connect)
+Brand and partnership inquiries: [wisdomechoes.net/connect](https://wisdomeechoes.net/connect)
