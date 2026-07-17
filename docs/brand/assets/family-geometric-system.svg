@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560">
+  <rect width="1600" height="560" fill="#070809"/>
+  
+    <text x="70" y="65" fill="#3979E8" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.5">SZIGOR RESEARCH / GEOMETRIC IDENTITY FAMILY</text>
+    <text x="70" y="118" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="2">THREE MARKS. ONE EVIDENCE STANDARD.</text>
+    
+        <g>
+          <rect x="70" y="150" width="460" height="350" rx="18" fill="#111419"/>
+          <rect x="70" y="150" width="460" height="10" rx="5" fill="#F3B52E"/>
+          <text x="100" y="198" fill="#F3B52E" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">01</text>
+          <g transform="translate(98 206) scale(0.42)">
+      <path fill="#F3B52E" fill-rule="evenodd" d="
+        M256 38 L474 420 H332 L291 354 L256 474 L221 354 L180 420 H38 Z
+        M256 142 L382 360 H312 L281 308 L256 388 L231 308 L200 360 H130 Z"/>
+      <path fill="#A56D00" d="M221 354 L256 474 L291 354 L275 328 L256 389 L237 328 Z"/></g>
+          <text x="320" y="294" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="5">LASZLO</text>
+          <text x="320" y="332" fill="#F3B52E" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">SIGNAL GATE</text>
+          <text x="320" y="378" text-anchor="start" fill="#8F96A1" font-family="Consolas,monospace" font-size="13" font-weight="600" letter-spacing="1.3"><tspan x="320" dy="0">ON-CHAIN SUB-BRAND</tspan><tspan x="320" dy="22">IDENTITY</tspan></text>
+        </g>
+        <g>
+          <rect x="570" y="150" width="460" height="350" rx="18" fill="#111419"/>
+          <rect x="570" y="150" width="460" height="10" rx="5" fill="#D9553B"/>
+          <text x="600" y="198" fill="#D9553B" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">02</text>
+          <g transform="translate(598 206) scale(0.42)">
+      <path fill="#6F7782" d="M92 62 H364 L438 136 V220 H340 L314 190 H198 L172 220 H74 V136 Z"/>
+      <path fill="#6F7782" d="M74 292 H172 L198 322 H314 L340 292 H438 V376 L364 450 H148 L74 376 Z"/>
+      <rect x="168" y="190" width="176" height="132" rx="10" fill="#D9553B"/>
+      <circle cx="126" cy="256" r="50" fill="#B8BEC6"/>
+      <circle cx="126" cy="256" r="25" fill="#6F7782"/>
+      <path fill="#B8BEC6" d="M300 206 H326 V306 H300 Z M334 206 H348 V306 H334 Z"/></g>
+          <text x="820" y="294" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="5">JANOS</text>
+          <text x="820" y="332" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">PROOF ENGINE</text>
+          <text x="820" y="378" text-anchor="start" fill="#8F96A1" font-family="Consolas,monospace" font-size="13" font-weight="600" letter-spacing="1.3"><tspan x="820" dy="0">US EQUITY SUB-BRAND</tspan><tspan x="820" dy="22">IDENTITY</tspan></text>
+        </g>
+        <g>
+          <rect x="1070" y="150" width="460" height="350" rx="18" fill="#0B1429"/>
+          <rect x="1070" y="150" width="460" height="10" rx="5" fill="#3979E8"/>
+          <text x="1100" y="198" fill="#3979E8" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2">03</text>
+          <g transform="translate(1098 206) scale(0.42)">
+    <path fill="#3979E8" d="M60 74 H220 V156 L244 194 L220 228 V284 L244 318 L220 356 V438 H60 L22 400 V112 Z"/>
+    <path fill="#3979E8" d="M452 74 H292 V156 L268 194 L292 228 V284 L268 318 L292 356 V438 H452 L490 400 V112 Z"/>
+    <path fill="#78A7FF" d="M60 74 H220 V112 H78 L60 130 Z M452 74 H292 V112 H434 L452 130 Z"/>
+    <path fill="#F1EEE7" d="M256 142 L310 210 H282 V326 H230 V210 H202 Z"/></g>
+          <text x="1320" y="294" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="5">SZIGOR</text>
+          <text x="1320" y="332" fill="#3979E8" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">EVIDENCE FRAME</text>
+          <text x="1320" y="378" text-anchor="start" fill="#8F96A1" font-family="Consolas,monospace" font-size="13" font-weight="600" letter-spacing="1.3"><tspan x="1320" dy="0">MASTER BRAND</tspan><tspan x="1320" dy="22">IDENTITY</tspan></text>
+        </g>
+</svg>

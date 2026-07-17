@@ -5,9 +5,26 @@ by direct visual review on 2026-07-17. The production files below contain no
 generated brand text; names and metadata are added deterministically by
 `scripts/build-brand-assets.cjs`.
 
-## Approved Szigor master
+## Final brand assignment
 
-- Output: `assets/szigor-proof-instrument.png`
+The three objects were approved before their final family roles were assigned.
+The canonical production mapping is:
+
+- LASZLO = the gold Signal Gate;
+- JANOS = the carbon-and-oxide Proof Engine;
+- Szigor Research = the blue Evidence Frame.
+
+The black/red and blue prompts below therefore retain their original working
+labels for an honest generation record, while the builder exports them under
+the final canonical filenames `janos-brand-sculpture.png` and
+`szigor-brand-sculpture.png`. The family hero reads left to right as LASZLO,
+JANOS, Szigor. Everyday geometric logos are deterministic SVG artwork and are
+not image-generated.
+
+## Approved black/red object — final JANOS master
+
+- Historical generation output: `assets/szigor-proof-instrument.png`
+- Canonical production output: `assets/janos-brand-sculpture.png`
 - Status: approved first version
 - References: none
 
@@ -43,9 +60,10 @@ objects.
 
 Earlier thin-outline LASZLO outputs are rejected.
 
-## Approved JANOS master
+## Approved blue object — final Szigor master
 
-- Output: `assets/janos-ledger-window.png`
+- Historical generation output: `assets/janos-ledger-window.png`
+- Canonical production output: `assets/szigor-brand-sculpture.png`
 - Status: approved first version
 - References: none
 
@@ -65,6 +83,7 @@ No words, labels, watermark, fake data, or extra props.
 - Output: `assets/family-proof-instruments-hero.png`
 - Status: final family composition
 - References: the three approved masters above
+- Final reading order: LASZLO / JANOS / Szigor
 
 ```text
 Compose the three supplied proof instruments together on one low black-stone
@@ -78,10 +97,16 @@ No text, new symbols, connector lines, diagrams, extra objects, watermark, or
 changes to the three designs.
 ```
 
+The quoted family prompt also preserves its working labels. The final reading
+order above overrides those labels; the pixels themselves already appear in
+the correct left-to-right order.
+
 ## Production derivatives
 
 The builder creates, for each brand:
 
+- solid geometric SVG marks in color, mono, and reverse;
+- geometric lockups and family/architecture diagrams;
 - 512 × 512 avatar and compact mark;
 - 16 × 16 and 32 × 32 favicons;
 - 1200 × 320 horizontal lockup;

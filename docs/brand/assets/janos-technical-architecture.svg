@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#070809"/>
+  
+    <text x="52" y="65" fill="#D9553B" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.4">US EQUITY RESEARCH SUB-BRAND / TECHNICAL ARCHITECTURE</text>
+    <text x="52" y="128" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="2">EVIDENCE → RELEASE → PAPER CONTROL</text>
+    <text x="52" y="168" fill="#AEB5BE" font-family="Arial,sans-serif" font-size="17">Research and release remain separate from the deterministic Paper control plane.</text>
+    
+    <rect x="52" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="52" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="70" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">01</text>
+    <text x="70" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="70" dy="0">EVIDENCE</tspan><tspan x="70" dy="23">INPUTS</tspan></text>
+    <text x="70" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="70" dy="0">Market + SEC</tspan><tspan x="70" dy="20">source archive</tspan></text><path fill="#D9553B" d="M222 298 H224 V288 L242 304 L224 320 V310 H222 Z"/>
+    <rect x="246" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="246" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="264" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">02</text>
+    <text x="264" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="264" dy="0">IMMUTABLE</tspan><tspan x="264" dy="23">PIT DATASET</tspan></text>
+    <text x="264" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="264" dy="0">Dual-price</tspan><tspan x="264" dy="20">available_at</tspan></text><path fill="#D9553B" d="M416 298 H418 V288 L436 304 L418 320 V310 H416 Z"/>
+    <rect x="440" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="440" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="458" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">03</text>
+    <text x="458" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="458" dy="0">FROZEN</tspan><tspan x="458" dy="23">PROTOCOL</tspan></text>
+    <text x="458" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="458" dy="0">Cutoff · costs</tspan><tspan x="458" dy="20">purged folds</tspan></text><path fill="#D9553B" d="M610 298 H612 V288 L630 304 L612 320 V310 H610 Z"/>
+    <rect x="634" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="634" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="652" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">04</text>
+    <text x="652" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="652" dy="0">CONFIRMED</tspan><tspan x="652" dy="23">EXPERIMENT</tspan></text>
+    <text x="652" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="652" dy="0">One-time test</tspan><tspan x="652" dy="20">walk-forward</tspan></text><path fill="#D9553B" d="M804 298 H806 V288 L824 304 L806 320 V310 H804 Z"/>
+    <rect x="828" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="828" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="846" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">05</text>
+    <text x="846" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="846" dy="0">HMAC</tspan><tspan x="846" dy="23">RELEASE GATE</tspan></text>
+    <text x="846" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="846" dy="0">Dataset · model</tspan><tspan x="846" dy="20">source binding</tspan></text><path fill="#D9553B" d="M998 298 H1000 V288 L1018 304 L1000 320 V310 H998 Z"/>
+    <rect x="1022" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="1022" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="1040" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">06</text>
+    <text x="1040" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="1040" dy="0">DETERMINISTIC</tspan><tspan x="1040" dy="23">PAPER PLANE</tspan></text>
+    <text x="1040" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="1040" dy="0">Snapshot · outbox</tspan><tspan x="1040" dy="20">risk · worker</tspan></text><path fill="#D9553B" d="M1192 298 H1194 V288 L1212 304 L1194 320 V310 H1192 Z"/>
+    <rect x="1216" y="210" width="166" height="205" rx="14" fill="#181C22"/>
+    <rect x="1216" y="210" width="166" height="8" rx="4" fill="#D9553B"/>
+    <text x="1234" y="246" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.8">07</text>
+    <text x="1234" y="288" text-anchor="start" fill="#F1EEE7" font-family="'Arial Narrow',Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="0"><tspan x="1234" dy="0">IBKR DU</tspan><tspan x="1234" dy="23">PAPER CONTROL</tspan></text>
+    <text x="1234" y="342" text-anchor="start" fill="#AEB5BE" font-family="Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0"><tspan x="1234" dy="0">Reconcile · halt</tspan><tspan x="1234" dy="20">recovery · audit</tspan></text>
+    <path fill="#D9553B" d="M52 468 H1348 V530 H1298 L1268 500 L1238 530 H52 Z"/>
+    <text x="700" y="506" text-anchor="middle" fill="#FFFFFF" font-family="Consolas,monospace" font-size="15" font-weight="800" letter-spacing="1.7">HARD AUTHORITY BOUNDARY — AI HAS NO RUNTIME ORDER PATH</text>
+    <rect x="52" y="572" width="620" height="150" rx="14" fill="#111419"/>
+    <rect x="728" y="572" width="620" height="150" rx="14" fill="#111419"/>
+    <text x="78" y="612" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6">CONTROL BOUNDARY</text>
+    <text x="78" y="650" text-anchor="start" fill="#C1C5CA" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="78" dy="0">Only contract-qualified instruments and</tspan><tspan x="78" dy="27">DU-prefixed IBKR Paper accounts reach the worker.</tspan></text>
+    <text x="754" y="612" fill="#D9553B" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6">CURRENT STATUS</text>
+    <text x="754" y="650" text-anchor="start" fill="#C1C5CA" font-family="Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0"><tspan x="754" dy="0">Verified: offline + PostgreSQL control paths.</tspan><tspan x="754" dy="27">Pending: licensed data, SEC monitoring, real DU Paper.</tspan></text>
+    <text x="52" y="780" fill="#8F96A1" font-family="Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.3">POSITIVE EXPECTANCY NOT ESTABLISHED · PAPER OBSERVATION NOT STARTED · NO LIVE-CAPITAL ROUTE</text>
+</svg>

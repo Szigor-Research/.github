@@ -1,176 +1,197 @@
 # Witness Cut / Proof Instruments
 
-> Adopted for Szigor Research, LASZLO, and JANOS on 2026-07-17.
->
-> Supersedes the Confluence S system.
+> Canonical family system for Szigor Research, LASZLO, and JANOS · 2026-07-17
 
-The family premise is **Three instruments. One evidence standard.** Szigor
-Research is the master research brand. LASZLO and JANOS are specialist
-sub-brands beneath it and peers to each other. Hierarchy changes the role of a
-brand, never its level of craft.
+The family premise is **One evidence standard. Two independent research
+systems.** Szigor Research is the master research brand. LASZLO and JANOS are
+peer research sub-brands with the same level of design finish and separate
+operating authority.
 
-This is an image-led identity system. Each brand is represented by a
-photographic, physically substantial proof instrument—not by a recolored
-shared glyph or a collection of thin technical lines.
+## Canonical brand mapping
+
+| Brand | Role | Everyday geometric mark | Three-dimensional instrument |
+| --- | --- | --- | --- |
+| **Szigor Research** | Master research brand | Blue **Evidence Frame** | Blue twin-frame object, right side of the family hero |
+| **LASZLO** | On-chain research sub-brand | Gold **Signal Gate** | Gold triangle/pulse object, left side of the family hero |
+| **JANOS** | US equity research sub-brand | Black/red **Proof Engine** | Black housing with oxide witness cell, center of the family hero |
+
+This mapping is final. Historical file names created during image exploration
+do not override it.
+
+## Two visual layers
+
+### Geometric identity
+
+The geometric marks are the production logos for:
+
+- GitHub organization and repository avatars;
+- website navigation and favicons;
+- documentation, diagrams, presentations, and small UI;
+- partner, press, and monochrome applications.
+
+They use solid filled geometry and decisive negative space. They are not
+hairline reductions of the three-dimensional objects.
+
+### Proof Instruments
+
+The three-dimensional instruments are the editorial and launch image world:
+
+- social and campaign covers;
+- presentation openers;
+- large organization or product storytelling;
+- motion and close-crop material studies.
+
+Do not shrink the sculptures into favicons or attempt to trace their material
+detail. The geometric marks carry recognition at small sizes.
+
+## The shared grammar: Witness Cut
+
+The Witness Cut is the point at which a claim becomes inspectable: a central
+arrow, event gate, aperture, or contrast cell. Each brand owns a different
+silhouette:
+
+- **Szigor Evidence Frame:** two blue evidence leaves hold a central proof
+  arrow. The arrow communicates a common standard flowing into independently
+  governed systems.
+- **LASZLO Signal Gate:** a thick gold triangular gate integrates an event
+  pulse into its lower structure.
+- **JANOS Proof Engine:** a carbon/titanium housing contains one oxide-red
+  witness cell.
+
+The family must never be rebuilt as one letter, chain link, infinity loop, or
+recolored shared glyph.
 
 ## Brand architecture
 
-| Brand | Role | Research focus | Primary emblem |
-| --- | --- | --- | --- |
-| **Szigor Research** | Master research brand | Evidence governance, engineering standards, and the research portfolio | **Proof Instrument** |
-| **LASZLO** | Research sub-brand | On-chain events, risk gates, execution state, and replay | **Signal Gate** |
-| **JANOS** | Research sub-brand | US equity evidence, point-in-time datasets, releases, and reconciliation | **Ledger Window** |
+Use `assets/brand-architecture-map.svg` when the relationship must be
+understood at a glance:
 
-Preferred endorsement names are `LASZLO / SZIGOR RESEARCH` and
-`JANOS / SZIGOR RESEARCH`. The architecture does not itself assert legal
-ownership, equity, account, or IP relationships.
+```text
+Szigor Research / Evidence Frame
+           ↓
+   Evidence before action
+       ↙           ↘
+LASZLO             JANOS
+on-chain            US equities
+```
 
-## Shared visual grammar
+The central arrow describes method and endorsement, not shared runtime
+authority. LASZLO and JANOS keep separate data, credentials, evidence stores,
+models, releases, accounts, execution adapters, capital state, and audit
+records.
 
-The shared idea is the **Witness Cut**: a controlled aperture, interruption, or
-contrast cell where evidence becomes inspectable. The three outer silhouettes
-remain independent.
+Preferred naming:
 
-All three identities use:
+- `Szigor Research`
+- `LASZLO / SZIGOR RESEARCH` when endorsement is useful
+- `JANOS / SZIGOR RESEARCH` when endorsement is useful
 
-- dense black fields and directional studio light;
-- thick, machined mass with visible material texture;
-- one controlled brand color;
-- a single legible aperture or witness event;
-- restrained editorial typography and operational metadata;
-- finished imagery as the composition, with rules and grids only as support.
+Brand architecture does not itself assert legal ownership, equity, shared
+accounts, or shared capital.
 
-Do not rebuild the family as an `S`, chain link, infinity loop, road junction,
-or shared letterform. Do not reduce the primary emblems to hairline icons.
+## Brand voices
 
-## The three instruments
+### Szigor Research
 
-### Szigor Research — Proof Instrument
+- Mark: **Evidence Frame**
+- Color: Szigor Blue `#3979E8`
+- Primary line: **Evidence-bound decision systems.**
+- Supporting line: **Evidence before action.**
 
-A compact black and titanium calibration housing holds one oxide-red witness
-cell. The form is authoritative, asymmetrical, and purpose-built rather than a
-literal letter.
+### LASZLO
 
-- Color: Szigor Oxide `#D9553B`
-- Voice: **Evidence before action.**
-- Use: organization profile, governance, research standards, and family media
-- Master image: `assets/szigor-proof-instrument.png`
-
-### LASZLO — Signal Gate
-
-A heavy gold triangular gate surrounds a black ceramic core. A broad event
-pulse is structurally fused into the lower frame. The outline must feel forged
-and load-bearing, never like a heartbeat line, chart, mountain, or thin wire.
-
-- Color: LASZLO Signal `#F3B52E`
-- Voice: **Signal is only useful when action is bounded.**
+- Mark: **Signal Gate**
+- Color: LASZLO Gold `#F3B52E`
+- Primary line: **Signal is only useful when action is bounded.**
 - Sequence: **EVENT / GATE / STATE**
-- Master image: `assets/laszlo-signal-gate.png`
 
-The approved version is the thick-frame refinement. Earlier thin-outline
-LASZLO studies are rejected and must not be used.
+The pulse is structural and thick. Do not turn it into a heartbeat, price
+chart, mountain, or wire outline.
 
-### JANOS — Ledger Window
+### JANOS
 
-Two cobalt ledger plates form a stable point-in-time window around a narrow
-central aperture. The object is balanced, archival, and materially durable.
-
-- Color: JANOS Ledger `#3979E8`
-- Voice: **Every price has a time. Every action has a record.**
+- Mark: **Proof Engine**
+- Color: JANOS Oxide `#D9553B`
+- Primary line: **Every price has a time. Every action has a record.**
 - Sequence: **POINT-IN-TIME / RELEASE / RECONCILIATION**
-- Master image: `assets/janos-ledger-window.png`
 
-## Equal professional completeness
+The oxide witness cell must remain contained by the engine housing. Do not
+turn the mark into a generic app tile, robot, or letter.
 
-Each identity ships with the same finished asset set:
+## Equal production completeness
 
-| Deliverable | Pattern | Size |
-| --- | --- | --- |
-| Primary emblem render | `{brand}-proof-instrument.png` or brand equivalent | High-resolution source |
-| Avatar | `{brand}-avatar.png` | 512 × 512 |
-| Compact mark | `{brand}-mark.png` | 512 × 512 |
-| Favicons | `{brand}-favicon-16.png`, `{brand}-favicon-32.png` | 16 × 16, 32 × 32 |
-| Horizontal lockup | `{brand}-lockup.png` | 1200 × 320 |
-| README banner | `{brand}-banner.png` | 1200 × 340 |
-| Social preview | `{brand}-social-preview.png` | 1280 × 640 |
+| Deliverable | Szigor | LASZLO | JANOS |
+| --- | --- | --- | --- |
+| Primary / mono / reverse SVG | Required | Required | Required |
+| Primary / reverse lockup SVG | Required | Required | Required |
+| 512 px avatar and compact mark | Required | Required | Required |
+| 16 px and 32 px favicon | Required | Required | Required |
+| README banner | Required | Required | Required |
+| Repository social preview | Required | Required | Required |
+| Three-dimensional instrument | Required | Required | Required |
+| Technical architecture diagram | Family governance | On-chain hot path | Research → Paper control |
 
-In family presentations, show all three emblems at equal optical weight and
-production finish. Brand order may communicate architecture—Szigor first,
-followed by LASZLO and JANOS as peers—but no identity is a minor badge.
+No sub-brand is a secondary badge. In family media, use comparable optical
+weight and equal production finish.
 
-## Color and typography
+## Color and type
 
 | Token | Value | Role |
 | --- | --- | --- |
-| Instrument Black | `#070809` | Shared field |
-| Instrument White | `#F1EEE7` | Primary reverse copy |
-| Evidence Gray | `#8F96A1` | Metadata and secondary copy |
-| Szigor Oxide | `#D9553B` | Szigor identity accent |
-| LASZLO Signal | `#F3B52E` | LASZLO identity accent |
-| JANOS Ledger | `#3979E8` | JANOS identity accent |
+| Instrument Black | `#070809` | Shared dark field |
+| Instrument White | `#F1EEE7` | Reverse copy and aperture |
+| Evidence Gray | `#626872` | Secondary copy |
+| Cool Gray | `#8F96A1` | Metadata |
+| Szigor Blue | `#3979E8` | Master-brand identity |
+| LASZLO Gold | `#F3B52E` | On-chain sub-brand identity |
+| JANOS Oxide | `#D9553B` | US equity sub-brand identity |
 
-Use a modern, condensed sans-serif for names, a clear sans-serif for narrative
-copy, and a monospace face for timestamps, state, release IDs, and evidence
-labels. The supplied lockup PNGs are the approved GitHub treatments; do not
-approximate them by typing a substitute logo.
+Use a condensed modern sans-serif for brand names, a clear sans-serif for
+narrative copy, and a monospace face for timestamps, state, release IDs, and
+evidence labels. Identity colors never replace operational risk, warning,
+approval, execution, or health semantics.
 
-Identity colors do not replace operational risk, warning, health, or execution
-semantics.
+## Technical architecture imagery
 
-## Image direction
+The organization homepage uses two explicit public diagrams:
 
-Primary emblems are approved high-resolution image masters. Preserve their
-shape, material, and lighting; do not trace them into thin vectors or ask a
-model to invent text inside them.
+- `assets/laszlo-technical-architecture.svg` shows the stable event-to-ledger
+  hot path. AI research is shadow-only; only the executor can transmit a swap.
+  Paper/Anvil and Live/Base remain separate.
+- `assets/janos-technical-architecture.svg` shows point-in-time evidence,
+  frozen research, the HMAC release gate, and deterministic IBKR DU Paper
+  control. AI has no runtime order path and no live-capital route exists.
 
-- Prefer one dominant object and a large, quiet black field.
-- Use close crops only when the complete emblem appears elsewhere on the same
-  surface.
-- Keep overlays sparse and legible.
-- Avoid generic neon charts, crypto coins, glowing circuits, fake interfaces,
-  line-only diagrams, decorative rails, and pseudo-technical filler.
-- Never stretch, rotate, outline, recolor, or add effects to an emblem.
+Never use architecture graphics to imply accepted licensed data, successful
+live-capital promotion, positive expectancy, or completed external acceptance.
 
-## Current asset inventory
+## Production inventory
 
-All paths below are relative to `docs/brand/`.
+All paths are relative to `docs/brand/`.
 
-| Asset family | Current source |
+| Family | Current source |
 | --- | --- |
-| Three-brand hero | `assets/family-proof-instruments-hero.png` |
-| Szigor master | `assets/szigor-proof-instrument.png` |
-| LASZLO master | `assets/laszlo-signal-gate.png` |
-| JANOS master | `assets/janos-ledger-window.png` |
-| GitHub export kit | `assets/{brand}-{avatar,mark,lockup,banner,social-preview}.png` |
-| Favicons | `assets/{brand}-favicon-{16,32}.png` |
-| Runnable specimen | `visual-system.html` |
-| Deterministic export builder | `../../scripts/build-brand-assets.cjs` |
-| Generation record | `IMAGEGEN_PROMPTS.md` |
-
-Run the builder from the repository root after changing an approved master:
-
-```powershell
-node scripts/build-brand-assets.cjs
-```
-
-## Retirement and migration
-
-- Confluence S is retired as the active identity.
-- Files matching `*-confluence-*` are historical records only.
-- Thin-outline LASZLO studies and the first line-led Witness Cut drafts are
-  rejected.
-- Current profiles, READMEs, social previews, presentations, and campaigns
-  must use the image-led PNG kit listed above.
-- The Szigor organization profile uses `assets/szigor-banner.png`; each
-  product repository uses its own banner and social preview.
+| Geometric system guide | `GEOMETRIC_LOGOS.md` |
+| Brand architecture | `assets/brand-architecture-map.svg` and `.png` |
+| Family logo sheet | `assets/family-geometric-system.svg` and `.png` |
+| LASZLO architecture | `assets/laszlo-technical-architecture.svg` and `.png` |
+| JANOS architecture | `assets/janos-technical-architecture.svg` and `.png` |
+| Three-dimensional family hero | `assets/family-proof-instruments-hero.png` |
+| Szigor sculpture | `assets/szigor-brand-sculpture.png` |
+| LASZLO sculpture | `assets/laszlo-brand-sculpture.png` |
+| JANOS sculpture | `assets/janos-brand-sculpture.png` |
+| Brand build | `../../scripts/build-brand-assets.cjs` |
+| Asset validation | `../../scripts/validate-brand-assets.py` |
 
 ## Approval checklist
 
-- Is the correct brand's independent emblem leading the surface?
-- Does LASZLO retain the approved thick frame and broad structural pulse?
-- Do all three emblems have comparable mass, scale, and finish?
-- Is the hierarchy clear: Szigor master, LASZLO and JANOS peer sub-brands?
-- Is the composition carried by a finished image rather than decorative lines?
-- Are colors separated from operational semantics?
-- Are all legacy Confluence and rejected thin-line assets absent from the
-  current surface?
+- Is Szigor blue, LASZLO gold, and JANOS black/red?
+- Is the geometric mark leading small and everyday surfaces?
+- Is the three-dimensional object reserved for editorial scale?
+- Is Szigor clearly the master brand and LASZLO/JANOS clearly peers?
+- Does the central arrow communicate a standard rather than shared authority?
+- Are thin outlines, decorative rails, and generic line filler absent?
+- Are AI, Paper, Live, data acceptance, and capital boundaries stated
+  accurately?
+- Are old Confluence and superseded mapping assets absent from current
+  surfaces?
