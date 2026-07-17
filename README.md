@@ -9,11 +9,12 @@ complete; repository URLs under the new organization are authoritative.
 |---|---|
 | [`profile/README.md`](profile/README.md) | Organization homepage and portfolio map |
 | [`docs/`](docs/) | Architecture, projects, publication policy, brand, and research index |
-| [`docs/brand/CONFLUENCE_S.md`](docs/brand/CONFLUENCE_S.md) | Adopted Szigor / LASZLO / JANOS visual system and asset rules |
+| [`docs/brand/WITNESS_CUT.md`](docs/brand/WITNESS_CUT.md) | Adopted Witness Cut system: independent Szigor, LASZLO, and JANOS marks and asset rules |
 | [`docs/brand/MIGRATION.md`](docs/brand/MIGRATION.md) | Completed handle migration record and validation controls |
 | [`SECURITY.md`](SECURITY.md) | Organization security-reporting entry point |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Shared public contribution boundaries |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Public participation standard |
 
-Legacy LASZLO visual assets in this repository belong to the LASZLO product
-history. They are not the Szigor Research organization mark.
+Szigor Research is the master brand; LASZLO and JANOS are peer research
+sub-brands with equally complete, independent identities. Legacy Confluence S
+assets are archival and are not current marks for any of the three brands.

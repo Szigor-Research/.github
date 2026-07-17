@@ -8,7 +8,7 @@
 
 [Portfolio](https://github.com/Szigor-Research/.github/tree/main/docs/projects) |
 [Architecture](https://github.com/Szigor-Research/.github/blob/main/docs/architecture/overview.md) |
-[Visual system](https://github.com/Szigor-Research/.github/blob/main/docs/brand/CONFLUENCE_S.md) |
+[Visual system](https://github.com/Szigor-Research/.github/blob/main/docs/brand/WITNESS_CUT.md) |
 [Open-source policy](https://github.com/Szigor-Research/.github/blob/main/docs/open-source/README.md) |
 [Security](https://github.com/Szigor-Research/.github/blob/main/SECURITY.md) |
 [Field notes](https://wisdomechoes.net/project)
@@ -19,20 +19,26 @@
 
 ---
 
-## Research constellation
+## Research brands
 
-LASZLO and JANOS are parallel private research systems. Szigor Research is the
-shared public research identity for their engineering standards; it is not a
-holding company and neither lab is a subsidiary of the other.
+Szigor Research is the master research brand. LASZLO and JANOS are specialist
+sub-brands beneath it and peers to each other. Each brand has an independent
+primary mark and the same professional level of identity, documentation, and
+delivery. The brand structure does not by itself claim a legal holding-company,
+equity, account, or IP relationship.
 
-| Lab | Market | Research boundary | Current mode |
-|---|---|---|---|
-| **LASZLO** | EVM and on-chain markets | Point-in-time ingestion, model research, deterministic risk gates, execution state, and replay | Private systems research |
-| **JANOS** | US equities | Dual-price datasets, company evidence, constrained portfolios, broker-state recovery, and signed releases | Private systems research; IBKR Paper only |
+<img src="../docs/brand/assets/family-proof-instruments-hero.png" alt="The LASZLO Signal Gate, Szigor Proof Instrument, and JANOS Ledger Window" width="100%">
 
-The labs share engineering discipline, not strategy code or unsupported
-performance claims. Real data, credentials, models, routing details, and
-operator telemetry remain private.
+| Brand | Role | Research boundary | Identity instrument | Current mode |
+|---|---|---|---|---|
+| **Szigor Research** | Master research brand | Public engineering standards, evidence governance, and portfolio | Proof Instrument | Public research identity |
+| **LASZLO** | On-chain research sub-brand | Point-in-time ingestion, model research, deterministic risk gates, execution state, and replay | Triangle Pulse | Private systems research |
+| **JANOS** | US equity research sub-brand | Dual-price datasets, company evidence, constrained portfolios, broker-state recovery, and signed releases | Ledger Window | Private systems research; IBKR Paper only |
+
+The three identities follow one Witness Cut standard of proof without sharing
+one logo. The research systems share engineering discipline, not strategy code
+or unsupported performance claims. Real data, credentials, models, routing
+details, and operator telemetry remain private.
 
 ## Public reference products
 

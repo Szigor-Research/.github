@@ -1,32 +1,95 @@
-# Szigor Research Image Generation Record
+# Proof Instruments Image Generation Record
 
-## Confluence S master key visual
+All current masters were produced with Codex built-in `imagegen` and selected
+by direct visual review on 2026-07-17. The production files below contain no
+generated brand text; names and metadata are added deterministically by
+`scripts/build-brand-assets.cjs`.
 
-- Output: `assets/szigor-confluence-hero.png`
-- Mode: Codex built-in `imagegen`
-- Generated: 2026-07-15
-- References: none; the deterministic SVG mark was authored separately
-- Intended use: brand specimen hero, editorial cover, launch frame, GitHub social crop
+## Approved Szigor master
+
+- Output: `assets/szigor-proof-instrument.png`
+- Status: approved first version
+- References: none
 
 ```text
-Use case: brand key visual
-Asset type: first-round master brand hero image for Szigor Research, intended for a launch page, GitHub social banner, editorial cover, and presentation opening frame
-Primary request: Create a visually arresting abstract Confluence S. The overall silhouette must clearly suggest a capital S without using a typeset letter. At the upper terminal, two narrow independent rails run side by side; at the lower terminal, two narrow independent rails run side by side. As they pass through the center, the two rails visibly approach, align, and become one shared proof band for a short precise interval, then split and remain independent again. The idea is two parallel market systems meeting the same evidence threshold, not one system absorbing the other.
-Scene/backdrop: a bold contemporary editorial composition on warm mineral-white archival paper; one oversized cropped S-confluence object spans most of the landscape frame, with a strong field of quiet negative space reserved on the right; add only a few restrained registration ticks and one tiny proof-stamp aperture at the shared center
-Style/medium: premium tactile research-editorial art direction; real photographed assemblage made from thick uncoated paper, screen-printed pigment, cut vellum, graphite transfer, and a thin brushed anodized-metal edge; museum-catalog precision with the graphic force of a modern AI research launch campaign; sophisticated, memorable, not cute and not generic fintech
-Composition/framing: landscape 3:2, asymmetrical and confident; macro crop of the confluence form entering from upper left and exiting lower left, while the center gate remains fully visible; large quiet space on right; no identity-sheet panels and no UI mockups
-Lighting/mood: directional daylight with crisp dimensional shadows, calm authority, intellectual energy, visible material depth
-Color palette: bone paper #F3EEE4, warm white #FBF8F1, carbon ink #1E1D1A; one rail signal ochre #C9912F for LASZLO, the other ledger blue #345D7E for JANOS; a tiny fusion-clay proof mark #BC6548 only at the shared gate
-Materials/textures: paper tooth, dry screen-print ink, subtle embossing, graphite construction marks, thin metal edge, controlled imperfections
-Constraints: no words, no typography, no readable letters other than the implied abstract S silhouette, no numbers, no logos from any existing company, no mascot, no character; the two colored rails must remain distinct outside the center and genuinely become one neutral carbon band in the central interval; strong enough to read at banner size
-Avoid: beige lifestyle moodboard, watercolor, children's-book illustration, cartoon robot, glossy 3D logo, glassmorphism, gold-luxury styling, cyberpunk neon, glowing circuitry, crypto coins, stock charts, gradients, rounded app cards, corporate identity sheet, fake text, watermark
+Create a single premium sculptural identity object for Szigor Research: a
+compact black and dark-titanium precision proof instrument with a bold
+oxide-red witness cell held inside a machined calibration housing. Thick,
+asymmetrical, authoritative mass; chamfered edges, ceramic and anodized metal
+textures, one tactile control, controlled studio light, black seamless
+background, centered hero composition. It must feel like proprietary research
+hardware, not a letter S, app icon, line logo, chart, circuit diagram, or
+generic fintech symbol. No words, labels, watermark, interface, or extra props.
 ```
 
-## Usage boundary
+## Approved LASZLO master
 
-The generated image is a campaign key visual, not the logo master. All marks and
-lockups must remain deterministic SVG assets. Do not ask an image model to redraw
-the wordmarks, add fake labels, or replace the Confluence S geometry.
+- Output: `assets/laszlo-signal-gate.png`
+- Status: approved thick-frame refinement
+- References: approved Szigor and JANOS masters for material weight and finish
 
-The earlier `laszlo-sentinel-signal-garden.png` prompt is retained only in Git
-history. That illustration is not part of the new family identity.
+```text
+Refine LASZLO alone into a heavy forged signal gate with the same professional
+physical presence as the supplied Szigor and JANOS references. Use a broad,
+thick gold triangular frame, a dense black ceramic core, deep bevels, and one
+wide pulse structurally fused into the lower frame. Increase thickness and
+optical weight everywhere; the pulse must be a load-bearing part of the object,
+not a thin heartbeat line. Front three-quarter product portrait, directional
+studio light, black seamless background, tactile metal grain, controlled amber
+reflection. Preserve the triangle-and-pulse recognition, but avoid wireframes,
+hairlines, charts, mountains, typography, fake labels, glow effects, or extra
+objects.
+```
+
+Earlier thin-outline LASZLO outputs are rejected.
+
+## Approved JANOS master
+
+- Output: `assets/janos-ledger-window.png`
+- Status: approved first version
+- References: none
+
+```text
+Create a single premium sculptural identity object for JANOS: two thick cobalt
+ledger plates facing each other around a narrow central point-in-time aperture.
+Stable bilateral architecture, deep machined edges, dark titanium backing,
+luminous but materially believable blue glass or enamel, archival and precise
+rather than futuristic. Controlled studio light on a black seamless
+background, centered product portrait, strong silhouette and physical depth.
+Not a letter, bracket icon, line logo, stock chart, UI panel, or crypto object.
+No words, labels, watermark, fake data, or extra props.
+```
+
+## Approved family hero
+
+- Output: `assets/family-proof-instruments-hero.png`
+- Status: final family composition
+- References: the three approved masters above
+
+```text
+Compose the three supplied proof instruments together on one low black-stone
+plinth: LASZLO Signal Gate, Szigor Proof Instrument, and JANOS Ledger Window.
+Preserve each approved object exactly—shape, thickness, color, material, and
+relative authority. Give all three equal production finish and comparable
+optical weight while keeping Szigor at the architectural center. Wide
+cinematic black studio, restrained directional highlights, real contact
+shadows, generous black negative space, premium product-family photography.
+No text, new symbols, connector lines, diagrams, extra objects, watermark, or
+changes to the three designs.
+```
+
+## Production derivatives
+
+The builder creates, for each brand:
+
+- 512 × 512 avatar and compact mark;
+- 16 × 16 and 32 × 32 favicons;
+- 1200 × 320 horizontal lockup;
+- 1200 × 340 README/profile banner;
+- 1280 × 640 repository social preview.
+
+## Archived direction
+
+The earlier Confluence S prompt and every line-led Witness Cut draft are
+retired. Their outputs may remain in Git history for migration provenance, but
+they are not current identity assets and must not appear on public surfaces.
